@@ -24,9 +24,9 @@ from sentence_transformers import SentenceTransformer
 import chromadb
 
 # ─── Konfigurasi ──────────────────────────────────────────────────────────────
-BASE_DIR   = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-KB_DIR     = os.path.join(BASE_DIR, 'knowledge_base')
-CHROMA_DIR = os.path.join(BASE_DIR, 'knowledge_base', 'chroma_db')
+BASE_DIR   = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # = knowledge_base/
+KB_DIR     = os.path.join(BASE_DIR, 'docs')       # = knowledge_base/docs/
+CHROMA_DIR = os.path.join(BASE_DIR, 'chroma_db')  # = knowledge_base/chroma_db/
 COLLECTION = 'kb_perpustakaan_pnj'
 EMBED_MODEL = 'BAAI/bge-m3'
 
