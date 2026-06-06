@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Data besar — tidak perlu di repo
+knowledge_base/chroma_db/
+retrieval/output/embeddings*.npy
+
+# macOS
+.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# RAFT model weights (terlalu besar)
+raft/raft_merged/
+raft/raft_lora/
