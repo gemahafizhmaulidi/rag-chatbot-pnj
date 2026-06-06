@@ -8,15 +8,17 @@ OOS_RESPONSE = (
 )
 
 NO_BOOK_RESPONSE = (
-    "Maaf, saya tidak menemukan buku yang sesuai dengan pertanyaan tersebut "
-    "di katalog Perpustakaan PNJ. Coba gunakan kata kunci yang lebih spesifik, "
-    "atau cek langsung di [OPAC PNJ](https://opac.pnj.ac.id)."
+    "Maaf, buku tersebut tidak tersedia di koleksi cetak Perpustakaan PNJ. "
+    "Kamu bisa coba cek koleksi digital berikut:\n"
+    "• 📖 [Katalog eBook International](https://docs.google.com/spreadsheets/d/1u0zzX9V5xHBFZoM38xQdBHs7fKrzJwil/edit?gid=1114637861#gid=1114637861)\n"
+    "• 📱 [Katalog Kubaca PNJ](https://drive.google.com/file/d/1lLZWbLUVTVSt1TsKb53r-gPCxaONqAy7/view)"
 )
 
 GREETING_RESPONSE = (
     "Halo! Saya Asisten Virtual Perpustakaan PNJ. 😊\n\n"
     "Saya bisa membantu Anda:\n"
-    "• 📚 Mencari dan merekomendasikan buku dari katalog perpustakaan\n"
+    "• 📚 Mencari dan merekomendasikan buku koleksi cetak perpustakaan\n"
+    "• 📖 Mengarahkan ke koleksi eBook International & Kubaca PNJ\n"
     "• ℹ️ Menjawab pertanyaan tentang layanan, jam buka, dan fasilitas\n\n"
     "Contoh pertanyaan:\n"
     "\"Buku tentang pemrograman Python ada tidak?\"\n"
@@ -86,9 +88,11 @@ SYS_BOOK_SEARCH = (
     "Toleransi: buku yang relevan dengan topik utama tetap ditampilkan "
     "meski tidak semua kata kunci query cocok — fokus pada kecocokan topik. "
     "Jika jumlah buku relevan yang ditemukan lebih sedikit dari yang diminta user, "
-    "informasikan bahwa hanya itu yang tersedia di koleksi PNJ dan sarankan cek OPAC untuk koleksi lengkap. "
-    "Jika benar-benar tidak ada buku yang topiknya relevan, "
-    "katakan tidak ditemukan dan sarankan cek OPAC. "
+    "informasikan bahwa hanya itu yang tersedia di koleksi cetak PNJ, lalu sarankan cek "
+    "Katalog eBook International (https://docs.google.com/spreadsheets/d/1u0zzX9V5xHBFZoM38xQdBHs7fKrzJwil/edit) "
+    "atau Katalog Kubaca PNJ (https://drive.google.com/file/d/1lLZWbLUVTVSt1TsKb53r-gPCxaONqAy7/view). "
+    "Jika benar-benar tidak ada buku yang topiknya relevan, katakan tidak ditemukan di koleksi cetak "
+    "dan arahkan ke Katalog eBook International atau Katalog Kubaca PNJ. "
     "Langsung tulis jawaban dalam Bahasa Indonesia tanpa basa-basi."
 )
 
@@ -104,7 +108,9 @@ SYS_RECOMMENDATION = (
     "Jika ada catatan level pemula/lanjut di konteks, sesuaikan dengan kebutuhan user. "
     "JANGAN mengarang isi atau sinopsis buku yang tidak ada di konteks. "
     "JANGAN menyebutkan buku yang tidak relevan hanya untuk mengisi jawaban. "
-    "Jika tidak ada buku yang relevan, katakan jujur dan sarankan cek OPAC. "
+    "Jika tidak ada buku yang relevan di koleksi cetak, katakan jujur dan arahkan ke "
+    "Katalog eBook International (https://docs.google.com/spreadsheets/d/1u0zzX9V5xHBFZoM38xQdBHs7fKrzJwil/edit) "
+    "atau Katalog Kubaca PNJ (https://drive.google.com/file/d/1lLZWbLUVTVSt1TsKb53r-gPCxaONqAy7/view). "
     "Tutup dengan satu kalimat rekomendasi utama jika memungkinkan. "
     "Langsung tulis jawaban dalam Bahasa Indonesia tanpa basa-basi."
 )
