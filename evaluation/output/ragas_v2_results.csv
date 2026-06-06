@@ -1,0 +1,195 @@
+question,answer,faithfulness,answer_relevancy
+Jam berapa perpustakaan PNJ buka pada hari Senin sampai Kamis?,"Berdasarkan konteks yang tersedia, jam buka perpustakaan PNJ pada hari Senin sampai Kamis adalah pukul 08.00 hingga 16.00 WIB.",0.25,0.9623394012451172
+Jam berapa perpustakaan PNJ buka pada hari Jumat?,"Berdasarkan konteks yang tersedia, jam buka perpustakaan PNJ pada hari Jumat adalah pukul 08.00 hingga 16.30 WIB.",1.0,0.9854769706726074
+Apakah perpustakaan PNJ buka pada hari Sabtu dan Minggu?,"Maaf, informasi tersebut tidak tersedia dalam basis pengetahuan saya. Silakan hubungi petugas perpustakaan secara langsung atau kunjungi https://perpustakaan.pnj.ac.id/",0.6666666666666666,0.7241489291191101
+Berapa banyak buku yang bisa dipinjam sekaligus oleh mahasiswa?,"Berdasarkan konteks yang diberikan, terdapat perbedaan aturan antara dokumen ""TATIB PERPUS.pdf"" dan ""PEDOMAN LAYANAN PERPUSTAKAAN .pdf"":
+
+*   Dokumen **TATIB PERPUS.pdf** (bagian C.d) menyatakan: ""Peminjaman bahan pustaka buku maksimal setiap pemustaka adalah **2 Judul**.""
+*   Dokumen **PEDOMAN LAYANAN PERPUSTAKAAN .pdf** (bagian 3.2.2) menyatakan: ""Maksimal peminjaman buku **2 judul**...""
+
+Namun, dokumen **2026 DRAFT PERATURAN TATIB terbaru2026.docx.pdf** (bagian 1.3) menyatakan aturan yang berbeda: ""Jumlah maksimal peminjaman adalah **3 (tiga) judul buku** per pemustaka.""
+
+Karena konteks ini menyajikan dua aturan yang berbeda (2 judul vs 3 judul) dari dokumen yang berbeda, tidak ada satu jawaban tunggal yang dapat dikonfirmasi tanpa mengetahui dokumen mana yang berlaku saat ini (apakah aturan lama di TATIB PERPUS atau aturan baru di DRAFT 2026).
+
+Maaf, informasi tersebut tidak tersedia dalam basis pengetahuan saya. Silakan hubungi petugas perpustakaan secara langsung atau kunjungi https://perpustakaan.pnj.ac.id/",0.8,0.6745161414146423
+Berapa lama masa peminjaman buku di perpustakaan PNJ?,Masa peminjaman buku di perpustakaan PNJ adalah 2 minggu (14 hari) dan dapat diperpanjang 1 kali.,1.0,0.9475074410438538
+Berapa kali peminjaman buku bisa diperpanjang?,"Berdasarkan konteks yang diberikan, masa peminjaman buku dapat diperpanjang **1 kali**.
+
+Informasi ini ditemukan di beberapa sumber dalam konteks:
+1.  **PEDOMAN LAYANAN PERPUSTAKAAN .pdf**: Menyatakan ""dapat diperpanjang 1 kali masa peminjaman"".
+2.  **2026 DRAFT PERATURAN TATIB terbaru2026.docx.pdf**: Menyatakan ""dapat diperpanjang 1 (satu) kali"".
+3.  **TATIB PERPUS.pdf**: Menyatakan ""dapat diperpanjang satu kali"".",0.5,0.8761855959892273
+Bagaimana prosedur perpanjangan masa pinjam buku di perpustakaan PNJ?,"Berdasarkan konteks yang diberikan, prosedur perpanjangan masa pinjam buku adalah sebagai berikut:
+
+Pemustaka dapat memperpanjang masa peminjaman **1 kali** masa peminjaman.
+
+*Catatan tambahan dari konteks:*
+*   Masa peminjaman awal adalah selama 2 minggu (14 hari).
+*   Maksimal jumlah peminjaman adalah 2 judul (sesuai PEDOMAN LAYANAN PERPUSTAKAAN) atau 3 judul (sesuai DRAFT PERATURAN TATIB terbaru 2026).
+*   Perpanjangan ini berlaku untuk buku teks. Koleksi referensi tertentu (seperti Tugas Akhir, Skripsi, Thesis, laporan PKL, Laporan Penelitian, Kamus, Ensiklopedia, Buku Diktat, Buku Ajar) hanya dapat dibaca di tempat dan tidak dapat dipinjam.",0.6666666666666666,0.66460120677948
+Apakah ada denda jika terlambat mengembalikan buku di perpustakaan PNJ?,"Ya, ada denda jika terlambat mengembalikan buku di perpustakaan PNJ.
+
+Nilai denda adalah **Rp 1.000,- (Seribu rupiah) per buku per hari**. Pembayaran denda disetorkan ke rekening BLU Politeknik Negeri Jakarta sesuai ketentuan yang berlaku.",1.0,0.9718663096427917
+Apa yang terjadi jika buku yang dipinjam hilang atau rusak?,"Jika buku yang dipinjam hilang atau rusak, pemustaka wajib mengganti koleksi yang hilang dengan buku yang sama atau dengan subjek sejenis.
+
+Jika buku rusak, pemustaka harus melaporkannya langsung kepada petugas perpustakaan dan tidak diperkenankan mencoba memperbaiki sendiri.
+
+Selama kewajiban penggantian belum dipenuhi, pemustaka tidak diperkenankan melakukan peminjaman buku.
+
+Selain itu, buku yang hilang atau rusak wajib diganti dengan buku yang sama atau diganti dengan buku yang subyek, jumlah halaman dan tahun terbit sama.",1.0,0.8623630404472351
+Apakah mahasiswa PNJ perlu mendaftar untuk menjadi anggota perpustakaan?,"Ya, mahasiswa PNJ secara otomatis menjadi anggota perpustakaan dan berhak memanfaatkan seluruh layanan perpustakaan sesuai ketentuan yang berlaku.",1.0,0.8963271975517273
+Bagaimana prosedur peminjaman buku di perpustakaan PNJ?,"Berdasarkan konteks yang diberikan, prosedur peminjaman buku di perpustakaan PNJ adalah sebagai berikut:
+
+1.  **Syarat Anggota**: Pemustaka (khususnya civitas akademika Politeknik Negeri Jakarta) sudah otomatis menjadi anggota perpustakaan.
+2.  **Persiapan Kedatangan**:
+    *   Pemustaka datang dan mengisi daftar kunjungan pada otomasi SLiMs (online).
+    *   Menitipkan tas dan jaket di tempat penitipan yang disediakan serta menggunakan tas plastik mika yang disediakan selama di dalam ruangan.
+3.  **Pencarian dan Pemilihan Buku**:
+    *   Melakukan pengecekan pada katalog online untuk melihat bahan pustaka yang dicari atau langsung menuju rak koleksi bahan pustaka.
+    *   Mencari, memilih, dan mengambil buku sesuai kepentingan.
+4.  **Proses Peminjaman**:
+    *   Membawa buku yang sudah dipilih ke depan meja sirkulasi.
+    *   Peminjaman buku bersifat terbuka (open access) untuk buku teks, sedangkan koleksi referensi (seperti Tugas Akhir, Skripsi, Thesis, laporan PKL, Laporan Penelitian, Kamus, Ensiklopedia, Buku Diktat, Buku Ajar) hanya dapat dibaca di tempat.
+5.  **Batasan Peminjaman**:
+    *   Maksimal peminjaman buku adalah 2 judul (sesuai TATIB PERPUS) atau 3 judul (sesuai DRAFT PERATURAN TATIB terbaru 2026).
+    *   Masa peminjaman selama 2 minggu dan dapat diperpanjang 1 kali masa peminjaman.
+    *   Peminjaman buku tidak dapat dilakukan setelah UAS sampai dengan [tanggal tidak tercantum di konteks].",0.6923076923076923,0.9296574592590332
+Fasilitas apa saja yang tersedia di perpustakaan PNJ?,"Fasilitas yang tersedia di perpustakaan PNJ meliputi:
+
+- Ruang baca yang nyaman dan ruang diskusi kelompok
+- WiFi / internet gratis (hotspot) untuk mendukung kebutuhan akademik
+- OPAC (Online Public Access Catalogue)
+- Loker penitipan barang
+- Ruang multimedia (CD, DVD, akses internet)
+- BI Corner (fasilitas hasil kerjasama perpustakaan PNJ dengan Bank Indonesia)
+- Layanan fotokopi dan cetak
+- Akses ramah disabilitas: jalan khusus kursi roda dan toilet khusus penyandang disabilitas
+- Taman dan teras perpustakaan
+- Meja baca mandiri
+- Meja sirkulasi
+- Meja komputer
+- Meja dis",0.6923076923076923,0.9434342384338379
+Apakah perpustakaan PNJ menyediakan WiFi?,"Ya, perpustakaan PNJ menyediakan WiFi. Fasilitas internet gratis melalui hotspot WiFi tersedia di seluruh area perpustakaan untuk mendukung kebutuhan akademik pemustaka.",1.0,0.8991419672966003
+Di mana lokasi perpustakaan PNJ?,"Lokasi perpustakaan PNJ berada di Jl. Prof. DR. G.A. Siwabessy, Kampus Universitas Indonesia, Depok 16425.",1.0,0.9728109240531921
+Bagaimana cara menghubungi perpustakaan PNJ?,"Anda dapat menghubungi perpustakaan PNJ melalui:
+
+- **Telepon**: 021-7270036 ext. 303
+- **WhatsApp**: 087886168799
+- **Email**: perpustakaan@pnj.ac.id
+- **Website**: http://perpustakaan.pnj.ac.id/
+
+Lokasi perpustakaan berada di Jl. Prof. DR. G.A. Siwabessy, Kampus Universitas Indonesia, Depok 16425.",1.0,0.9754635691642761
+Apa visi perpustakaan PNJ?,Visi UPT Perpustakaan PNJ adalah menjadi **Gerai Informasi (information resource center)**.,1.0,0.8833823204040527
+Apa misi perpustakaan PNJ?,"Misi UPT Perpustakaan PNJ adalah memenuhi kebutuhan informasi civitas akademika Politeknik Negeri Jakarta dengan menyediakan bahan data guna keperluan proses pendidikan, penelitian, dan pengabdian pada masyarakat.",1.0,0.8578939437866211
+Sistem apa yang digunakan perpustakaan PNJ untuk manajemen layanan?,Perpustakaan PNJ menggunakan sistem otomasi perpustakaan berbasis web **SLiMs** (Senayan Library Management System) untuk layanan sirkulasi dan OPAC.,1.0,0.7999421954154968
+Bagaimana cara mengakses katalog buku perpustakaan PNJ secara online?,"Untuk mengakses katalog buku perpustakaan PNJ secara online, Anda dapat menggunakan aplikasi **KubacaPNJ** yang tersedia untuk Desktop dan Mobile.
+
+Langkah-langkahnya adalah:
+1.  Cari nama aplikasi ""KubacaPNJ"" di Play Store (untuk perangkat mobile) atau melalui link yang disediakan (untuk versi Desktop).
+2.  Klik tombol **Instal** atau **Download** untuk menginstal aplikasi.
+3.  Setelah instalasi selesai, lakukan login dengan memasukkan **email** dan kata sandi yang telah Anda daftarkan.
+
+*Catatan: Pendaftaran akun harus disetujui oleh Admin Perpustakaan terlebih dahulu. Setelah akun Anda diterima, Anda baru dapat melakukan login.*
+
+Selain melalui aplikasi, koleksi digital seperti e-book dan e-journal juga dapat diakses melalui **jaringan internet PNJ** (sesuai ketentuan yang berlaku).",0.14285714285714285,0.8104204535484314
+Apakah perpustakaan PNJ memiliki layanan untuk mengakses tugas akhir atau skripsi mahasiswa?,"Ya, perpustakaan PNJ memiliki layanan untuk mengakses tugas akhir atau skripsi mahasiswa.
+
+Layanan tersebut berupa **referensi** untuk membantu pengguna menemukan koleksi tugas akhir, skripsi, tesis, dan laporan praktik kerja lapangan mahasiswa PNJ. Koleksi ini dapat diakses melalui **repository digital** di alamat http://repository.pnj.ac.id/.
+
+Selain itu, perpustakaan juga menyediakan layanan konsultasi literatur yang mencakup pemilihan referensi untuk tugas dan skripsi serta bimbingan penggunaan fasilitas dan koleksi perpustakaan.",1.0,0.9382036328315735
+Kapan perpustakaan PNJ pertama kali berdiri?,Perpustakaan PNJ pertama kali berdiri pada tahun 1982 dan mulai beroperasi pada tahun 1983.,1.0,0.9726335406303406
+Apakah perpustakaan PNJ ramah untuk penyandang disabilitas?,"Ya, perpustakaan PNJ ramah untuk penyandang disabilitas. Tersedia akses jalan khusus untuk pengguna kursi roda dan toilet khusus untuk penyandang disabilitas.",1.0,0.936427116394043
+Apa itu BI Corner di perpustakaan PNJ?,BI Corner adalah fasilitas khusus di perpustakaan PNJ yang merupakan hasil kerjasama antara UPT Perpustakaan PNJ dengan Bank Indonesia melalui perjanjian MOU. Fasilitas ini dapat dimanfaatkan oleh seluruh civitas akademika PNJ untuk mengakses koleksi dan informasi terkait ekonomi dan keuangan.,1.0,0.8567058444023132
+"Apa sistem layanan yang diterapkan di perpustakaan PNJ, apakah open access atau closed access?","Sistem layanan yang diterapkan di perpustakaan PNJ adalah sistem layanan campuran (mixed system) yang merupakan gabungan antara layanan terbuka (open access) dan layanan tertutup (closed access).
+
+Dalam sistem ini:
+1.  **Layanan Terbuka:** Pemustaka dapat mengambil sendiri koleksi bahan pustaka yang diinginkan di rak koleksi buku teks, umum, dan melakukan penelusuran informasi berbasis online.
+2.  **Layanan Tertutup:** Pemustaka tidak dapat mengambil sendiri koleksi referensi perpustakaan.",1.0,0.871573269367218
+Bagaimana prosedur pengembalian buku di perpustakaan PNJ?,"Berdasarkan konteks yang diberikan, prosedur pengembalian buku di perpustakaan PNJ diatur sebagai berikut:
+
+1.  **Pembayaran Denda (jika ada keterlambatan):**
+    Denda keterlambatan pengembalian buku sebesar **Rp 1.000,- (seribu rupiah) per buku per hari**. Pembayaran denda disetorkan ke rekening BLU Politeknik Negeri Jakarta sesuai ketentuan yang berlaku.
+
+2.  **Penggantian Buku (jika buku hilang atau rusak):**
+    Pemustaka wajib mengganti koleksi yang hilang atau rusak dengan buku yang sama atau dengan subjek sejenis. Jika buku rusak, harus diganti dengan buku yang sama atau buku yang subyek, jumlah halaman, dan tahun terbit sama.
+
+3.  **Dibatalkannya Peminjaman Baru:**
+    Selama kewajiban mengganti buku yang hilang atau rusak belum dipenuhi, pemustaka tidak diperkenankan melakukan peminjaman buku.
+
+4.  **Pelanggaran Prosedur:**
+    Pemustaka yang membawa koleksi keluar perpustakaan tanpa mengikuti prosedur dilaporkan kepada Kepala Jurusan/Ka. Prodi yang bersangkutan dan wajib mengembalikan buku tersebut.",0.0,0.6797459721565247
+Bagaimana prosedur bebas pustaka untuk mahasiswa yang akan wisuda di PNJ?,"Mahasiswa Politeknik Negeri Jakarta (PNJ) yang akan wisuda dari Program Diploma III (DIII), Diploma IV (DIV), dan Sarjana (S2) yang telah menyelesaikan studi wajib mengurus **Surat Keterangan Bebas Pinjam Bahan Pustaka** dari Perpustakaan pusat sebagai salah satu persyaratan pengambilan ijazah.
+
+Prosedur umum untuk mengakses layanan perpustakaan meliputi:
+1.  Pemustaka datang dan mengisi daftar kunjungan online pada otomasi perpustakaan (menggunakan NIM).
+2.  Menitipkan tas dan jaket pada tempat yang sudah disediakan serta menggunakan tas plastik mika yang disediakan selama di dalam ruangan.
+3.  Melakukan pengecekan pada katalog online atau langsung menuju rak koleksi untuk mencari dan mengambil buku yang diperlukan.
+4.  Membawa buku yang sudah dipilih ke depan meja sirkulasi.
+
+Penting untuk dicatat bahwa konteks yang tersedia hanya menyebutkan kewajiban mengurus surat keterangan bebas pinjam sebagai syarat pengambilan ijazah, namun tidak menjelaskan langkah-langkah teknis spesifik (seperti formulir, waktu pengurusan, atau lokasi khusus) untuk proses pembuatan surat tersebut.",0.875,0.8374456763267517
+Apakah perpustakaan PNJ menyediakan layanan e-book atau buku digital?,"Ya, perpustakaan PNJ menyediakan layanan e-book atau buku digital.
+
+Berdasarkan konteks yang tersedia:
+- Koleksi digital meliputi e-book, e-journal, repository institusi, dan database online yang dilanggan perpustakaan.
+- Perpustakaan Digital dapat diakses melalui Desktop dan Mobile.
+- Aplikasi ini memiliki fitur baca dan pinjam buku digital.",0.5,0.9270557761192322
+Bagaimana cara mengakses e-book Cambridge di perpustakaan PNJ?,"Untuk mengakses e-book Cambridge di perpustakaan PNJ, Anda perlu menggunakan platform **Cambridge Core Reader** yang tersedia melalui perpustakaan digital. Berikut langkah-langkahnya berdasarkan konteks:
+
+1.  **Pencarian:** Gunakan fitur pencarian di Cambridge Core untuk mencari artikel, bab, atau buku. Anda dapat menggunakan tombol ""Search"" di halaman hasil pencarian atau halaman jurnal.
+2.  **Pembuka Konten:** Setelah menemukan materi yang diinginkan, pilih tombol **""View HTML""** untuk membuka konten dalam Cambridge Core Reader di tab baru.
+3.  **Navigasi:** Gunakan tombol di sisi kiri layar untuk menavigasi konten (klik judul untuk melompat ke bagian tertentu), melihat informasi (tanggal publikasi, penulis), atau menggambar (tabel, peta).
+4.  **Akun Pengguna:** Untuk fitur tambahan seperti menyimpan pencarian, menyimpan ke bookmark, atau mengunduh PDF, Anda harus **mendaftar akun Cambridge Core**.
+    *   Klik tombol **""Register""** dan isi formulir dengan nama, alamat email, organisasi, negara, dan buat kata sandi.
+    *   Verifikasi akun Anda melalui email yang dikirim.
+5.  **Manajemen Bookmark:** Setelah login, Anda dapat menyimpan konten ke bookmark menggunakan tombol ""Save to my Bookmarks"" di bagian kiri bawah halaman hasil pencarian atau ikon bookmark pada halaman artikel/buku. Bookmark dapat dilihat di area **""My bookmarks""** di akun Anda.
+
+Catatan: Informasi mengenai cara mengunduh aplikasi perpustakaan digital (KubacaPNJ) atau instalasi aplikasi tersebut tidak tersedia dalam konteks yang diberikan untuk akses spesifik e-book Cambridge.",1.0,0.7272135615348816
+Apakah perpustakaan PNJ menyediakan layanan fotokopi atau cetak?,"Ya, perpustakaan PNJ menyediakan layanan fotokopi dan cetak untuk mahasiswa.",1.0,0.9022603034973145
+Berapa jumlah koleksi buku yang dimiliki perpustakaan PNJ?,"Perpustakaan PNJ saat ini memiliki **9,084 judul buku teks** yang terdaftar dalam database OPAC.
+
+Untuk mencari buku tertentu, coba tanyakan misalnya: *""Ada buku tentang machine learning?""*",0.5,0.8818132877349854
+Apa saja jenis koleksi yang tersedia di perpustakaan PNJ?,"Berdasarkan konteks yang tersedia, jenis koleksi yang tersedia di perpustakaan PNJ meliputi:
+
+*   **Koleksi Referensi**: Berisi informasi pengetahuan secara umum, singkat, dan tepat.
+*   **Koleksi Karya Cetak**: Termasuk buku teks dan referensi.
+*   **Koleksi Digital**: Meliputi e-book, e-journal, repository institusi, dan database online yang dilanggan perpustakaan.",0.6666666666666666,0.9613216519355774
+Apa sanksi jika mahasiswa melanggar tata tertib perpustakaan PNJ?,"Sanksi bagi mahasiswa yang melanggar tata tertib perpustakaan PNJ adalah sebagai berikut:
+
+1.  **Keterlambatan Pengembalian Buku:**
+    *   Denda sebesar **Rp 1.000,- (seribu rupiah) per buku per hari**.
+    *   Pembayaran denda disetorkan ke rekening BLU Politeknik Negeri Jakarta sesuai ketentuan yang berlaku.
+
+2.  **Kehilangan Koleksi Buku:**
+    *   Wajib mengganti buku yang hilang dengan buku yang sama atau buku yang mempunyai subjek sama.
+    *   Selama kewajiban penggantian belum dipenuhi, pemustaka tidak diperkenankan melakukan peminjaman buku.
+
+3.  **Membawa Koleksi Keluar Perpustakaan Tanpa Prosedur:**
+    *   Dilaporkan kepada Kepala Jurusan/Ka. Prodi yang bersangkutan.
+    *   Wajib mengembalikan buku yang dibawa keluar.
+    *   Tidak diperkenankan melakukan peminjaman (tidak diizin).",1.0,0.8241425156593323
+Apakah perpustakaan PNJ memiliki ruang baca khusus atau ruang diskusi?,"Ya, perpustakaan PNJ menyediakan ruang baca dan ruang diskusi.
+
+Berdasarkan konteks yang tersedia, perpustakaan menyediakan:
+- Ruang baca yang dilengkapi dengan meja dan kursi baca.
+- Ruang diskusi kelompok.
+- Ruang multimedia (CD, DVD, akses internet).
+
+Informasi mengenai nomor telepon, email, alamat, nama petugas, jam buka, atau angka denda tidak tersedia dalam konteks ini.",0.36363636363636365,0.9098870158195496
+Syarat apa saja yang diperlukan untuk menjadi anggota perpustakaan PNJ?,"Berdasarkan konteks yang diberikan, seluruh civitas akademika Politeknik Negeri Jakarta (mahasiswa, tenaga pendidik, dan tenaga kependidikan) secara otomatis menjadi anggota perpustakaan dan berhak memanfaatkan seluruh layanan perpustakaan sesuai dengan ketentuan yang berlaku.",1.0,0.6690433621406555
+Apakah ada ketentuan berpakaian atau tata tertib khusus saat masuk perpustakaan PNJ?,"Ya, ada ketentuan berpakaian khusus saat masuk perpustakaan PNJ.
+
+Menurut Peraturan Tata Tertib (TATIB) Perpustakaan, setiap pemustaka dilarang menggunakan pakaian yang tidak sopan, seperti celana pendek, sandal jepit, kaos tanpa kerah, topi, atau jaket di dalam ruang perpustakaan.
+
+Selain itu, terdapat aturan terkait barang bawaan:
+1.  Setiap pemustaka dilarang membawa tas atau barang sejenis ke dalam ruang koleksi.
+2.  Pemustaka wajib menggunakan loker untuk menyimpan barang bawaan selama berada di perpustakaan.
+3.  Bagi pengunjung yang masuk ke ruang koleksi dan referensi perpustakaan, tidak diperkenankan membawa tas.",1.0,0.9392940402030945
+Bagaimana cara melaporkan jika ada kerusakan buku koleksi perpustakaan PNJ?,"Jika menemukan kerusakan pada buku koleksi perpustakaan PNJ, mahasiswa dapat melaporkannya langsung kepada petugas perpustakaan. Jangan mencoba memperbaiki sendiri karena dapat memperparah kerusakan.",1.0,0.9191110730171204
+Apakah perpustakaan PNJ menyediakan layanan referensi atau konsultasi literatur?,"Ya, perpustakaan PNJ menyediakan layanan referensi dan konsultasi literatur. Layanan ini mencakup bantuan untuk pencarian sumber informasi yang tepat, pemilihan referensi untuk tugas dan skripsi, serta bimbingan penggunaan fasilitas dan koleksi perpustakaan.",1.0,0.9066116213798523
+Bagaimana cara mengakses KuBaCa PNJ untuk membaca buku digital?,"Untuk mengakses KuBaCa PNJ, Anda dapat mengaksesnya melalui aplikasi **KubacaPNJ** yang tersedia 24 jam (jika sistem mendukung), kecuali terdapat gangguan teknis atau pemeliharaan sistem.
+
+Catatan tambahan:
+- Layanan koleksi digital e-journal bersifat terbatas (berlangganan) dan hanya dapat diakses melalui jaringan internet PNJ.
+- Koleksi e-book dapat diakses baik di dalam maupun di luar jaringan secara daring sesuai ketentuan yang berlaku.",0.5714285714285714,0.7518763542175293
+Apakah perpustakaan PNJ melayani tamu atau pengunjung dari luar kampus?,"Perpustakaan PNJ terutama melayani sivitas akademika PNJ (mahasiswa, dosen, tenaga pendidik, dan tenaga kependidikan). Untuk pengunjung dari luar kampus, terdapat ketentuan khusus yang berlaku dan perlu dikonfirmasi langsung kepada pihak perpustakaan. Pengunjung dari luar Politeknik Negeri Jakarta dikenakan biaya jasa layanan sebesar Rp 10.000,- per satu kali kunjungan. Bagi masyarakat umum yang tidak dapat datang langsung ke Politeknik Negeri Jakarta, informasi koleksi Tugas Akhir, Skripsi, dan Thesis dapat diberikan melalui email atau via Pos dengan biaya perlembar Rp 5.000,- ditambah biaya ongkir.",0.5,0.8627230525016785
+Apakah ada program literasi informasi atau pelatihan penggunaan perpustakaan untuk mahasiswa baru PNJ?,"Ya, Perpustakaan PNJ menyelenggarakan program orientasi dan literasi informasi untuk mahasiswa baru. Program ini bertujuan agar mahasiswa baru dapat memanfaatkan fasilitas dan layanan perpustakaan secara optimal. Selain itu, perpustakaan juga memberikan bimbingan pemustaka bagi mahasiswa baru.",1.0,0.8911819458007812

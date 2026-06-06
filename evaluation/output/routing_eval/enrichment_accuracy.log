@@ -1,0 +1,37 @@
+Mengambil populasi buku enriched (kosong->terisi)...
+Total buku enriched: 7930 | sampel: 25
+  [01/25] konsisten=5 fabrikasi=True gbooks=False | Belajar cepat windows server 2008
+  [02/25] konsisten=5 fabrikasi=True gbooks=False | Seni dekorasi janur dan Ronce Bunga Melati
+  [03/25] konsisten=5 fabrikasi=True gbooks=False | Merakit PLC dengan mikrokontroler
+  [04/25] konsisten=5 fabrikasi=False gbooks=False | Geothermal HVAC : Green heating and cooling
+  [05/25] konsisten=5 fabrikasi=False gbooks=False | Kompendium ekonomika terutama untuk para none
+  [06/25] konsisten=5 fabrikasi=False gbooks=False | Organisasi dalam praktek
+  [07/25] konsisten=1 fabrikasi=True gbooks=False | Queen Kilisuci And Stories of Reyog
+  [08/25] konsisten=5 fabrikasi=True gbooks=False | Ekonometrik
+  [09/25] konsisten=5 fabrikasi=True gbooks=False | Digital diagram
+  [10/25] konsisten=1 fabrikasi=True gbooks=False | Practice and procedure for the quantity surve
+  [11/25] konsisten=5 fabrikasi=False gbooks=False | Information design workbook : graphic approac
+  [12/25] konsisten=5 fabrikasi=True gbooks=False | Financial statement fraud casebook : Baking t
+  [13/25] konsisten=4 fabrikasi=False gbooks=False | Khasiat Istimewa Jambu Klutuk
+  [14/25] konsisten=5 fabrikasi=True gbooks=False | Consumer Behavior
+  [15/25] konsisten=5 fabrikasi=False gbooks=False | Princiles of air conditioning
+  [16/25] konsisten=5 fabrikasi=True gbooks=False | Sistem Kendali
+  [17/25] konsisten=5 fabrikasi=False gbooks=False | International Marketing
+  [18/25] konsisten=5 fabrikasi=False gbooks=False | Pondasi tiang pancang
+  [19/25] konsisten=5 fabrikasi=True gbooks=False | Pengantar psikologi umum
+  [20/25] konsisten=5 fabrikasi=True gbooks=False | Videotape on Trial: A View from the Jury Box
+  [21/25] konsisten=5 fabrikasi=False gbooks=False | Money banking and financial markets
+  [22/25] konsisten=5 fabrikasi=False gbooks=False | Controllership : Tugas Akuntan Manajemen
+  [23/25] konsisten=5 fabrikasi=False gbooks=False | Faris dan Haji Obek
+  [24/25] konsisten=5 fabrikasi=False gbooks=False | Jaringan irigasi teknis
+  [25/25] konsisten=5 fabrikasi=False gbooks=False | Mikroprosesor intel
+
+============================================================
+AKURASI DESKRIPSI ENRICHMENT (sampel 25)
+============================================================
+  Konsistensi rata-rata (1-5)     : 4.64
+  Konsisten tinggi (>=4)          : 92%
+  Ada padanan di Google Books     : 0%  (sisanya: LLM-generated dari metadata)
+  Di-flag FABRIKASI               : 48%
+
+CSV: output/enrichment_accuracy.csv

@@ -1,0 +1,16 @@
+query,category,n_relevant,mrr_before,mrr_after,hit5_before,hit5_after,ndcg5_before,ndcg5_after,hit10_before,hit10_after,delta_mrr,delta_hit5,delta_ndcg5
+buku yang menjelaskan cara kerja transistor dan rangkaian penguat sinyal listrik,elektronika,10,0.5,0.5,1,1,0.21398626473452756,0.4912596920895758,1,1,0.0,0,0.27727342735504823
+panduan membangun aplikasi berbasis web menggunakan teknologi server-side,pemrograman web,10,0.0,0.5,0,1,0.0,0.34519134224686937,0,1,0.5,1,0.34519134224686937
+buku tentang cara menghitung beban struktur dan perencanaan gedung bertingkat,teknik sipil,10,0.2,1.0,1,1,0.13120507751234178,0.3391602052736161,1,1,0.8,0,0.20795512776127434
+pengantar konsep kecerdasan buatan dan jaringan syaraf tiruan untuk pemula,AI/ML,10,0.0,0.25,0,1,0.0,0.14606834984270645,0,1,0.25,1,0.14606834984270645
+buku akuntansi yang membahas pencatatan transaksi keuangan perusahaan,akuntansi,10,0.0,0.0,0,0,0.0,0.0,0,0,0.0,0,0.0
+materi kuliah tentang analisis tegangan regangan dan kekuatan material,teknik mesin,10,0.0,0.0,0,0,0.0,0.0,0,0,0.0,0,0.0
+buku yang membahas strategi pemasaran produk dan perilaku konsumen,manajemen pemasaran,10,0.0,0.0,0,0,0.0,0.0,0,0,0.0,0,0.0
+panduan belajar pemrograman berorientasi objek untuk pemula,pemrograman,10,0.5,0.3333333333333333,1,1,0.36005461457723403,0.16958010263680806,1,1,-0.16666666666666669,0,-0.19047451194042597
+buku tentang cara kerja protokol jaringan internet dan keamanan data,jaringan komputer,10,1.0,1.0,1,1,0.5531464700081437,0.8687949224876582,1,1,0.0,0,0.31564845247951456
+materi tentang prinsip perpajakan dan cara menghitung pajak penghasilan,perpajakan,10,0.3333333333333333,0.5,1,1,0.16958010263680806,0.21398626473452756,1,1,0.16666666666666669,0,0.0444061620977195
+buku tentang pengelolaan dan perawatan mesin produksi industri,teknik mesin industri,10,0.5,0.5,1,1,0.36005461457723403,0.21398626473452756,1,1,0.0,0,-0.14606834984270647
+panduan praktis instalasi dan pemrograman mikrokontroler arduino,embedded system,10,0.0,0.0,0,0,0.0,0.0,0,0,0.0,0,0.0
+buku statistika yang membahas uji hipotesis dan analisis data penelitian,statistika,10,0.5,0.3333333333333333,1,1,0.21398626473452756,0.30078518014914984,1,1,-0.16666666666666669,0,0.08679891541462229
+pengantar manajemen sumber daya manusia dan pengembangan organisasi,manajemen SDM,10,0.0,0.0,0,0,0.0,0.0,0,0,0.0,0,0.0
+buku tentang sistem basis data relasional dan bahasa query SQL,basis data,10,1.0,0.2,1,1,0.3391602052736161,0.13120507751234178,1,1,-0.8,0,-0.20795512776127434

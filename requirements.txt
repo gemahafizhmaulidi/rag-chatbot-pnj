@@ -1,0 +1,48 @@
+# rag-system-v3 dependencies
+# Install: pip install -r requirements.txt --break-system-packages
+
+# ── Database ──────────────────────────────────────────────────────────────────
+mysql-connector-python>=8.0.33
+
+# ── Data & numerik ────────────────────────────────────────────────────────────
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+
+# ── ML / Embedding / Retrieval ────────────────────────────────────────────────
+sentence-transformers>=2.6.0   # bge-m3 + bge-reranker-v2-m3
+rank-bm25>=0.2.2
+torch>=2.0.0
+
+# ── Vector Store ──────────────────────────────────────────────────────────────
+chromadb>=0.5.0
+
+# ── Document Parsing ──────────────────────────────────────────────────────────
+pdfplumber>=0.10.0
+openpyxl>=3.1.0
+
+# ── Web API ───────────────────────────────────────────────────────────────────
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# ── HTTP & Enrichment ─────────────────────────────────────────────────────────
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# ── Visualisasi ───────────────────────────────────────────────────────────────
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# ── Utilitas ──────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+colorama>=0.4.6
+
+# ── Evaluasi RAG (RAGAS) ──────────────────────────────────────────────────────
+ragas>=0.2.0
+langchain-ollama>=0.1.0
+langchain-community>=0.2.0
+langchain-huggingface>=0.0.3
+datasets>=2.14.0

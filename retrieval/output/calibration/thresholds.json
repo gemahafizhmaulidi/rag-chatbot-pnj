@@ -1,0 +1,19 @@
+{
+  "reranker_threshold": 0.07790476276808958,
+  "hardstop_threshold": 0.4108216432865731,
+  "reranker_stats": {
+    "optimal_threshold": 0.07790476276808958,
+    "f1": 0.4813008130081301,
+    "precision": 0.3561973525872443,
+    "recall": 0.7418546365914787,
+    "roc_auc": 0.751450769334329,
+    "n_pairs": 2000,
+    "n_relevant": 399
+  },
+  "hardstop_stats": {
+    "optimal_threshold": 0.4108216432865731,
+    "f1": 1.0,
+    "n_in_scope": 40,
+    "n_out_of_scope": 10
+  }
+}

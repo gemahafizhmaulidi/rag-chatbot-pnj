@@ -1,0 +1,13 @@
+query,n_books,n_books_with_desc,score_with,score_without,len_with,len_without
+buku machine learning untuk pemula,5,5,5,5,1992,1641
+rekomendasi buku jaringan komputer untuk skripsi,5,5,5,5,2398,2012
+buku basis data dan SQL,5,5,5,5,2059,2056
+buku pemrograman web javascript,5,4,4,2,1633,1384
+buku akuntansi biaya,5,5,5,2,1997,1863
+buku struktur data dan algoritma,5,5,5,2,2160,1752
+buku kecerdasan buatan,5,5,5,2,1395,1698
+buku mikrokontroler arduino,5,5,5,4,2343,1293
+buku manajemen pemasaran,5,5,5,1,1868,863
+buku statistika untuk penelitian,5,3,5,5,2364,2039
+buku sistem operasi,5,4,5,4,1317,957
+buku keamanan jaringan dan kriptografi,5,5,5,5,2632,2127

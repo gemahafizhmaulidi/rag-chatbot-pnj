@@ -1,0 +1,173 @@
+[2026-06-03 08:21:15,178] INFO Threshold dari kalibrasi: reranker=0.0779, hardstop=0.4108
+[2026-06-03 08:21:15,197] INFO No device provided, using mps
+[2026-06-03 08:21:15,496] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[2026-06-03 08:21:15,509] INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/modules.json "HTTP/1.1 200 OK"
+[2026-06-03 08:21:15,777] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[2026-06-03 08:21:15,792] INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[2026-06-03 08:21:15,795] INFO Loading SentenceTransformer model from BAAI/bge-m3.
+[2026-06-03 08:21:16,051] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[2026-06-03 08:21:16,052] WARNING Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[2026-06-03 08:21:16,061] INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[2026-06-03 08:21:16,319] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[2026-06-03 08:21:16,331] INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/README.md "HTTP/1.1 200 OK"
+[2026-06-03 08:21:16,597] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[2026-06-03 08:21:16,608] INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/modules.json "HTTP/1.1 200 OK"
+[2026-06-03 08:21:16,864] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-06-03 08:21:16,876] INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/sentence_bert_config.json "HTTP/1.1 200 OK"
+[2026-06-03 08:21:17,144] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[2026-06-03 08:21:17,406] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-06-03 08:21:17,419] INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/config.json "HTTP/1.1 200 OK"
+[2026-06-03 08:21:17,715] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+Loading bge-m3 + chroma...
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 55705.60it/s]
+[2026-06-03 08:21:17,979] INFO HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3 "HTTP/1.1 200 OK"
+[2026-06-03 08:21:18,134] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+[2026-06-03 08:21:18,262] INFO HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3/commits/main "HTTP/1.1 200 OK"
+[2026-06-03 08:21:18,397] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+[2026-06-03 08:21:18,552] INFO HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3/discussions?p=0 "HTTP/1.1 200 OK"
+[2026-06-03 08:21:18,659] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+[2026-06-03 08:21:18,831] INFO HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3/commits/refs%2Fpr%2F130 "HTTP/1.1 200 OK"
+[2026-06-03 08:21:18,922] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+[2026-06-03 08:21:19,105] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/refs%2Fpr%2F130/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+[2026-06-03 08:21:19,180] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-06-03 08:21:19,191] INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-06-03 08:21:19,369] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/refs%2Fpr%2F130/model.safetensors "HTTP/1.1 302 Found"
+[2026-06-03 08:21:19,449] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-06-03 08:21:19,460] INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/config.json "HTTP/1.1 200 OK"
+[2026-06-03 08:21:19,719] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-06-03 08:21:19,730] INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/config.json "HTTP/1.1 200 OK"
+[2026-06-03 08:21:19,989] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-06-03 08:21:20,000] INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-06-03 08:21:20,273] INFO HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[2026-06-03 08:21:20,603] INFO HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[2026-06-03 08:21:21,998] INFO HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3 "HTTP/1.1 200 OK"
+[2026-06-03 08:21:22,304] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-06-03 08:21:22,332] INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[2026-06-03 08:21:22,607] INFO HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3 "HTTP/1.1 200 OK"
+[2026-06-03 08:21:32,060] INFO ChromaDB KB: 196 chunks
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.40it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.40it/s]
+[2026-06-03 08:21:36,975] INFO KB search — dist=0.2696 (thr=0.4500) → RELEVAN
+  F: 0.25 -> 0.5 | Jam berapa perpustakaan PNJ buka pada hari Senin s
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.27it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.26it/s]
+[2026-06-03 08:22:22,538] INFO KB search — dist=0.2933 (thr=0.4500) → RELEVAN
+  F: 1.00 -> 1.0 | Jam berapa perpustakaan PNJ buka pada hari Jumat?
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.04it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.03it/s]
+[2026-06-03 08:22:30,741] INFO KB search — dist=0.2826 (thr=0.4500) → RELEVAN
+  F: 0.67 -> 0.33 | Apakah perpustakaan PNJ buka pada hari Sabtu dan M
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.95it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.94it/s]
+[2026-06-03 08:22:38,762] INFO KB search — dist=0.2576 (thr=0.4500) → RELEVAN
+  F: 0.80 -> 1.0 | Berapa banyak buku yang bisa dipinjam sekaligus ol
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.05it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.04it/s]
+[2026-06-03 08:22:49,712] INFO KB search — dist=0.3133 (thr=0.4500) → RELEVAN
+  F: 1.00 -> 1.0 | Berapa lama masa peminjaman buku di perpustakaan P
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.25it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.24it/s]
+[2026-06-03 08:22:58,221] INFO KB search — dist=0.3193 (thr=0.4500) → RELEVAN
+  F: 0.50 -> 1.0 | Berapa kali peminjaman buku bisa diperpanjang?
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 12.03it/s]
+[2026-06-03 08:23:08,279] INFO KB search — dist=0.3041 (thr=0.4500) → RELEVAN
+  F: 0.67 -> 1.0 | Bagaimana prosedur perpanjangan masa pinjam buku d
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.16it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.15it/s]
+[2026-06-03 08:23:20,844] INFO KB search — dist=0.2769 (thr=0.4500) → RELEVAN
+  F: 1.00 -> 1.0 | Apakah ada denda jika terlambat mengembalikan buku
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.98it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.97it/s]
+[2026-06-03 08:23:29,104] INFO KB search — dist=0.4374 (thr=0.4500) → RELEVAN
+  F: 1.00 -> 1.0 | Apa yang terjadi jika buku yang dipinjam hilang at
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.49it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.47it/s]
+[2026-06-03 08:23:38,350] INFO KB search — dist=0.3507 (thr=0.4500) → RELEVAN
+  F: 1.00 -> 1.0 | Apakah mahasiswa PNJ perlu mendaftar untuk menjadi
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.44it/s]
+[2026-06-03 08:23:46,391] INFO KB search — dist=0.2913 (thr=0.4500) → RELEVAN
+  F: 0.69 -> 0.93 | Bagaimana prosedur peminjaman buku di perpustakaan
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.48it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.48it/s]
+[2026-06-03 08:24:01,296] INFO KB search — dist=0.2956 (thr=0.4500) → RELEVAN
+  F: 0.69 -> 0.92 | Fasilitas apa saja yang tersedia di perpustakaan P
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  4.25it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  4.25it/s]
+[2026-06-03 08:24:16,321] INFO KB search — dist=0.2578 (thr=0.4500) → RELEVAN
+  F: 1.00 -> 1.0 | Apakah perpustakaan PNJ menyediakan WiFi?
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.27it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.27it/s]
+[2026-06-03 08:24:24,545] INFO KB search — dist=0.3814 (thr=0.4500) → RELEVAN
+  F: 1.00 -> 1.0 | Di mana lokasi perpustakaan PNJ?
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.75it/s]
+[2026-06-03 08:24:32,640] INFO KB search — dist=0.3026 (thr=0.4500) → RELEVAN
+  F: 1.00 -> 1.0 | Bagaimana cara menghubungi perpustakaan PNJ?
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 10.56it/s]
+[2026-06-03 08:24:42,973] INFO KB search — dist=0.3433 (thr=0.4500) → RELEVAN
+  F: 1.00 -> 0.5 | Apa visi perpustakaan PNJ?
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.18it/s]
+[2026-06-03 08:24:49,743] INFO KB search — dist=0.3891 (thr=0.4500) → RELEVAN
+  F: 1.00 -> 1.0 | Apa misi perpustakaan PNJ?
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 12.26it/s]
+[2026-06-03 08:25:00,223] INFO KB search — dist=0.3015 (thr=0.4500) → RELEVAN
+  F: 1.00 -> 1.0 | Sistem apa yang digunakan perpustakaan PNJ untuk m
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.64it/s]
+[2026-06-03 08:25:10,307] INFO KB search — dist=0.3905 (thr=0.4500) → RELEVAN
+  F: 0.14 -> 1.0 | Bagaimana cara mengakses katalog buku perpustakaan
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.35it/s]
+[2026-06-03 08:25:20,236] INFO KB search — dist=0.3310 (thr=0.4500) → RELEVAN
+  F: 1.00 -> 1.0 | Apakah perpustakaan PNJ memiliki layanan untuk men
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.89it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.88it/s]
+[2026-06-03 08:25:30,645] INFO KB search — dist=0.3911 (thr=0.4500) → RELEVAN
+  F: 1.00 -> 1.0 | Kapan perpustakaan PNJ pertama kali berdiri?
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 12.05it/s]
+[2026-06-03 08:25:38,275] INFO KB search — dist=0.3306 (thr=0.4500) → RELEVAN
+  F: 1.00 -> 1.0 | Apakah perpustakaan PNJ ramah untuk penyandang dis
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.77it/s]
+[2026-06-03 08:25:46,849] INFO KB search — dist=0.3918 (thr=0.4500) → RELEVAN
+  F: 1.00 -> 1.0 | Apa itu BI Corner di perpustakaan PNJ?
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 12.29it/s]
+[2026-06-03 08:25:56,285] INFO KB search — dist=0.3700 (thr=0.4500) → RELEVAN
+  F: 1.00 -> 1.0 | Apa sistem layanan yang diterapkan di perpustakaan
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.47it/s]
+[2026-06-03 08:26:05,678] INFO KB search — dist=0.3558 (thr=0.4500) → RELEVAN
+  F: 0.00 -> 1.0 | Bagaimana prosedur pengembalian buku di perpustaka
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.48it/s]
+[2026-06-03 08:26:16,164] INFO KB search — dist=0.4463 (thr=0.4500) → RELEVAN
+  F: 0.88 -> 1.0 | Bagaimana prosedur bebas pustaka untuk mahasiswa y
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 12.19it/s]
+[2026-06-03 08:26:28,972] INFO KB search — dist=0.3724 (thr=0.4500) → RELEVAN
+  F: 0.50 -> 1.0 | Apakah perpustakaan PNJ menyediakan layanan e-book
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.13it/s]
+[2026-06-03 08:26:37,518] INFO KB search — dist=0.3575 (thr=0.4500) → RELEVAN
+  F: 1.00 -> 1.0 | Bagaimana cara mengakses e-book Cambridge di perpu
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.71it/s]
+[2026-06-03 08:26:56,447] INFO KB search — dist=0.2988 (thr=0.4500) → RELEVAN
+  F: 1.00 -> 1.0 | Apakah perpustakaan PNJ menyediakan layanan fotoko
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 12.05it/s]
+[2026-06-03 08:27:04,147] INFO KB search — dist=0.3396 (thr=0.4500) → RELEVAN
+  F: 0.50 -> 0.5 | Berapa jumlah koleksi buku yang dimiliki perpustak
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 12.50it/s]
+[2026-06-03 08:27:12,559] INFO KB search — dist=0.3746 (thr=0.4500) → RELEVAN
+  F: 0.67 -> 1.0 | Apa saja jenis koleksi yang tersedia di perpustaka
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.44it/s]
+[2026-06-03 08:27:23,347] INFO KB search — dist=0.2826 (thr=0.4500) → RELEVAN
+  F: 1.00 -> 1.0 | Apa sanksi jika mahasiswa melanggar tata tertib pe
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.09it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.08it/s]
+[2026-06-03 08:27:35,660] INFO KB search — dist=0.2911 (thr=0.4500) → RELEVAN
+  F: 0.36 -> 0.45 | Apakah perpustakaan PNJ memiliki ruang baca khusus
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.13it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.13it/s]
+[2026-06-03 08:27:51,345] INFO KB search — dist=0.3295 (thr=0.4500) → RELEVAN
+  F: 1.00 -> 1.0 | Syarat apa saja yang diperlukan untuk menjadi angg
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 12.25it/s]
+[2026-06-03 08:28:00,112] INFO KB search — dist=0.3271 (thr=0.4500) → RELEVAN
+  F: 1.00 -> 1.0 | Apakah ada ketentuan berpakaian atau tata tertib k
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.17it/s]
+[2026-06-03 08:28:11,454] INFO KB search — dist=0.3586 (thr=0.4500) → RELEVAN
+  F: 1.00 -> 1.0 | Bagaimana cara melaporkan jika ada kerusakan buku 
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 12.05it/s]
+[2026-06-03 08:28:19,564] INFO KB search — dist=0.2969 (thr=0.4500) → RELEVAN
+  F: 1.00 -> 1.0 | Apakah perpustakaan PNJ menyediakan layanan refere
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.76it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.75it/s]
+[2026-06-03 08:28:28,757] INFO KB search — dist=0.4378 (thr=0.4500) → RELEVAN
+  F: 0.57 -> 1.0 | Bagaimana cara mengakses KuBaCa PNJ untuk membaca 
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 10.75it/s]
+[2026-06-03 08:28:38,260] INFO KB search — dist=0.3191 (thr=0.4500) → RELEVAN
+  F: 0.50 -> 1.0 | Apakah perpustakaan PNJ melayani tamu atau pengunj
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.48it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.48it/s]
+[2026-06-03 08:28:49,553] INFO KB search — dist=0.2033 (thr=0.4500) → RELEVAN
+  F: 1.00 -> 1.0 | Apakah ada program literasi informasi atau pelatih
+
+============================================================
+Faithfulness vs konteks PERTANYAAN (run awal) : 0.8097
+Faithfulness vs konteks SISTEM (akurat)       : 0.9286  (40/40)
+============================================================

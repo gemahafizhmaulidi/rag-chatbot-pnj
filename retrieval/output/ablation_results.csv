@@ -1,0 +1,161 @@
+config,query_id,query,topic,difficulty,mrr@5,p@5,hit@5,ndcg@5,mrr@10,p@10,hit@10,ndcg@10
+A_BM25_only,q001,pemrograman Python untuk pemula,pemrograman,easy,1.0,0.2,1,1.0,1.0,0.1,1,1.0
+A_BM25_only,q002,pemrograman berorientasi objek Java,pemrograman,easy,1.0,0.8,1,0.6621,1.0,0.8,1,0.7254
+A_BM25_only,q003,struktur data dan algoritma,algoritma,easy,1.0,1.0,1,0.893,1.0,1.0,1,0.8988
+A_BM25_only,q004,kecerdasan buatan machine learning,AI/ML,easy,1.0,1.0,1,0.9344,1.0,0.8,1,0.9868
+A_BM25_only,q005,deep learning neural network,AI/ML,medium,1.0,0.4,1,0.6367,1.0,0.2,1,0.6367
+A_BM25_only,q006,jaringan komputer protokol TCP IP,jaringan,easy,1.0,0.6,1,0.7735,1.0,0.7,1,0.8223
+A_BM25_only,q007,keamanan jaringan kriptografi,jaringan,medium,1.0,0.8,1,0.8304,1.0,0.5,1,0.8487
+A_BM25_only,q008,basis data relasional SQL,database,easy,0.25,0.4,1,0.2042,0.25,0.6,1,0.3653
+A_BM25_only,q009,pengembangan aplikasi web HTML CSS JavaScript,web,easy,1.0,0.6,1,0.6998,1.0,0.3,1,0.6998
+A_BM25_only,q010,sistem operasi manajemen proses memori,OS,medium,1.0,0.6,1,0.9469,1.0,0.3,1,0.9469
+A_BM25_only,q011,matematika diskrit untuk ilmu komputer,matematika,medium,1.0,0.6,1,1.0,1.0,0.3,1,1.0
+A_BM25_only,q012,data mining dan data warehouse,data,medium,1.0,0.4,1,0.7654,1.0,0.2,1,0.7654
+A_BM25_only,q013,pemrograman mobile Android,mobile,medium,0.3333,0.2,1,0.3066,0.3333,0.2,1,0.525
+A_BM25_only,q014,rekayasa perangkat lunak software engineering,RPL,medium,1.0,1.0,1,1.0,1.0,0.6,1,0.7994
+A_BM25_only,q015,elektronika digital rangkaian logika,elektro,easy,1.0,1.0,1,0.9344,1.0,0.8,1,0.8661
+A_BM25_only,q016,mikrokontroler Arduino embedded system,elektro,medium,1.0,0.6,1,0.6312,1.0,0.5,1,0.5971
+A_BM25_only,q017,sistem tenaga listrik pembangkit,elektro,medium,1.0,1.0,1,0.9152,1.0,0.8,1,0.8966
+A_BM25_only,q018,sinyal dan sistem telekomunikasi,elektro,hard,1.0,1.0,1,0.9013,1.0,0.9,1,0.9267
+A_BM25_only,q019,termodinamika perpindahan panas,mesin,medium,1.0,1.0,1,0.8311,1.0,1.0,1,0.9615
+A_BM25_only,q020,mekanika teknik statika dinamika,mesin,medium,1.0,1.0,1,0.9152,1.0,1.0,1,0.9752
+A_BM25_only,q021,gambar teknik mesin manufaktur,mesin,easy,1.0,1.0,1,1.0,1.0,0.8,1,0.8701
+A_BM25_only,q022,mekanika tanah pondasi bangunan,sipil,medium,1.0,1.0,1,1.0,1.0,1.0,1,1.0
+A_BM25_only,q023,struktur beton bertulang konstruksi,sipil,medium,1.0,1.0,1,0.927,1.0,1.0,1,0.9399
+A_BM25_only,q024,hidrolika dan drainase jalan,sipil,hard,1.0,1.0,1,0.8757,1.0,0.8,1,0.7961
+A_BM25_only,q025,kimia organik reaksi senyawa karbon,kimia,medium,1.0,0.6,1,0.6548,1.0,0.6,1,0.7426
+A_BM25_only,q026,kimia analitik laboratorium instrumen,kimia,medium,1.0,0.6,1,0.866,1.0,0.3,1,0.866
+A_BM25_only,q027,teknik reaksi kimia perpindahan massa,kimia,hard,1.0,0.4,1,0.4852,1.0,0.2,1,0.4329
+A_BM25_only,q028,akuntansi keuangan dasar laporan,akuntansi,easy,1.0,0.8,1,0.704,1.0,0.6,1,0.6849
+A_BM25_only,q029,akuntansi biaya manajemen perusahaan,akuntansi,medium,1.0,0.8,1,0.8402,1.0,0.9,1,0.8862
+A_BM25_only,q030,perpajakan dan audit keuangan,akuntansi,medium,0.5,0.2,1,0.214,0.5,0.3,1,0.2745
+A_BM25_only,q031,manajemen sumber daya manusia organisasi,manajemen,easy,1.0,1.0,1,0.9795,1.0,1.0,1,0.9841
+A_BM25_only,q032,pemasaran digital marketing strategi,manajemen,medium,1.0,0.6,1,0.5816,1.0,0.5,1,0.548
+A_BM25_only,q033,kewirausahaan bisnis startup UMKM,manajemen,easy,1.0,0.6,1,0.7227,1.0,0.7,1,0.7564
+A_BM25_only,q034,desain grafis tipografi layout,grafika,easy,1.0,0.6,1,0.7227,1.0,0.3,1,0.6448
+A_BM25_only,q035,teknik cetak offset digital printing,grafika,medium,1.0,0.6,1,0.7968,1.0,0.4,1,0.7558
+A_BM25_only,q036,buku buat belajar coding dari nol,pemrograman,hard,0.0,0.0,0,0.0,0.0,0.0,0,0.0
+A_BM25_only,q037,referensi buat skripsi sistem informasi,SI,hard,1.0,1.0,1,0.5351,1.0,1.0,1,0.7225
+A_BM25_only,q038,pengantar ilmu komputer mahasiswa semester 1,pengantar,easy,0.0,0.0,0,0.0,0.125,0.1,1,0.148
+A_BM25_only,q039,buku statistika buat analisis data penelitian,statistik,medium,1.0,1.0,1,0.8879,1.0,0.5,1,0.7818
+A_BM25_only,q040,pengantar ekonomi mikro makro,ekonomi,easy,1.0,1.0,1,0.9344,1.0,0.9,1,0.803
+B_Dense_only,q001,pemrograman Python untuk pemula,pemrograman,easy,0.0,0.0,0,0.0,0.0,0.0,0,0.0
+B_Dense_only,q002,pemrograman berorientasi objek Java,pemrograman,easy,1.0,0.8,1,0.7883,1.0,0.6,1,0.6726
+B_Dense_only,q003,struktur data dan algoritma,algoritma,easy,1.0,0.2,1,0.3392,1.0,0.3,1,0.3255
+B_Dense_only,q004,kecerdasan buatan machine learning,AI/ML,easy,1.0,0.2,1,0.3392,1.0,0.1,1,0.2635
+B_Dense_only,q005,deep learning neural network,AI/ML,medium,0.0,0.0,0,0.0,0.0,0.0,0,0.0
+B_Dense_only,q006,jaringan komputer protokol TCP IP,jaringan,easy,1.0,1.0,1,1.0,1.0,0.6,1,0.8162
+B_Dense_only,q007,keamanan jaringan kriptografi,jaringan,medium,1.0,0.4,1,0.5531,1.0,0.2,1,0.4935
+B_Dense_only,q008,basis data relasional SQL,database,easy,1.0,0.4,1,0.5087,1.0,0.3,1,0.4206
+B_Dense_only,q009,pengembangan aplikasi web HTML CSS JavaScript,web,easy,0.5,0.2,1,0.1771,0.5,0.2,1,0.3643
+B_Dense_only,q010,sistem operasi manajemen proses memori,OS,medium,1.0,0.2,1,0.4693,1.0,0.1,1,0.4693
+B_Dense_only,q011,matematika diskrit untuk ilmu komputer,matematika,medium,1.0,0.4,1,0.8403,1.0,0.2,1,0.8403
+B_Dense_only,q012,data mining dan data warehouse,data,medium,1.0,0.6,1,0.8855,1.0,0.3,1,0.8855
+B_Dense_only,q013,pemrograman mobile Android,mobile,medium,0.3333,0.2,1,0.3066,0.3333,0.1,1,0.3066
+B_Dense_only,q014,rekayasa perangkat lunak software engineering,RPL,medium,1.0,1.0,1,0.753,1.0,0.8,1,0.7766
+B_Dense_only,q015,elektronika digital rangkaian logika,elektro,easy,0.5,0.4,1,0.2988,0.5,0.5,1,0.4996
+B_Dense_only,q016,mikrokontroler Arduino embedded system,elektro,medium,1.0,0.8,1,0.7356,1.0,0.4,1,0.5528
+B_Dense_only,q017,sistem tenaga listrik pembangkit,elektro,medium,0.5,0.6,1,0.4448,0.5,0.7,1,0.5209
+B_Dense_only,q018,sinyal dan sistem telekomunikasi,elektro,hard,1.0,0.6,1,0.5113,1.0,0.4,1,0.4813
+B_Dense_only,q019,termodinamika perpindahan panas,mesin,medium,0.5,0.6,1,0.4887,0.5,0.5,1,0.4735
+B_Dense_only,q020,mekanika teknik statika dinamika,mesin,medium,1.0,1.0,1,0.6918,1.0,0.9,1,0.7045
+B_Dense_only,q021,gambar teknik mesin manufaktur,mesin,easy,0.0,0.0,0,0.0,0.1111,0.1,1,0.0663
+B_Dense_only,q022,mekanika tanah pondasi bangunan,sipil,medium,1.0,1.0,1,0.9563,1.0,0.7,1,0.8209
+B_Dense_only,q023,struktur beton bertulang konstruksi,sipil,medium,1.0,1.0,1,0.8274,1.0,0.8,1,0.7809
+B_Dense_only,q024,hidrolika dan drainase jalan,sipil,hard,1.0,1.0,1,0.6439,1.0,0.5,1,0.4775
+B_Dense_only,q025,kimia organik reaksi senyawa karbon,kimia,medium,1.0,0.8,1,0.8688,1.0,0.6,1,0.8039
+B_Dense_only,q026,kimia analitik laboratorium instrumen,kimia,medium,1.0,0.4,1,0.6275,1.0,0.2,1,0.6275
+B_Dense_only,q027,teknik reaksi kimia perpindahan massa,kimia,hard,0.0,0.0,0,0.0,0.0,0.0,0,0.0
+B_Dense_only,q028,akuntansi keuangan dasar laporan,akuntansi,easy,0.25,0.2,1,0.1563,0.25,0.3,1,0.2043
+B_Dense_only,q029,akuntansi biaya manajemen perusahaan,akuntansi,medium,1.0,0.8,1,0.7292,1.0,0.4,1,0.5194
+B_Dense_only,q030,perpajakan dan audit keuangan,akuntansi,medium,0.5,0.4,1,0.3836,0.5,0.3,1,0.3152
+B_Dense_only,q031,manajemen sumber daya manusia organisasi,manajemen,easy,1.0,0.6,1,0.7483,1.0,0.4,1,0.6247
+B_Dense_only,q032,pemasaran digital marketing strategi,manajemen,medium,1.0,0.8,1,0.6622,1.0,0.4,1,0.5135
+B_Dense_only,q033,kewirausahaan bisnis startup UMKM,manajemen,easy,1.0,0.4,1,0.4852,1.0,0.3,1,0.3933
+B_Dense_only,q034,desain grafis tipografi layout,grafika,easy,0.5,0.2,1,0.214,0.5,0.3,1,0.3862
+B_Dense_only,q035,teknik cetak offset digital printing,grafika,medium,0.5,0.6,1,0.341,0.5,0.5,1,0.471
+B_Dense_only,q036,buku buat belajar coding dari nol,pemrograman,hard,0.0,0.0,0,0.0,0.0,0.0,0,0.0
+B_Dense_only,q037,referensi buat skripsi sistem informasi,SI,hard,1.0,0.6,1,0.3662,1.0,0.5,1,0.3716
+B_Dense_only,q038,pengantar ilmu komputer mahasiswa semester 1,pengantar,easy,0.25,0.2,1,0.2021,0.25,0.1,1,0.2021
+B_Dense_only,q039,buku statistika buat analisis data penelitian,statistik,medium,1.0,0.4,1,0.4922,1.0,0.3,1,0.4951
+B_Dense_only,q040,pengantar ekonomi mikro makro,ekonomi,easy,1.0,0.6,1,0.6262,1.0,0.3,1,0.4197
+C_Hybrid_no_rerank,q001,pemrograman Python untuk pemula,pemrograman,easy,1.0,0.2,1,1.0,1.0,0.1,1,1.0
+C_Hybrid_no_rerank,q002,pemrograman berorientasi objek Java,pemrograman,easy,1.0,1.0,1,0.8082,1.0,0.9,1,0.8386
+C_Hybrid_no_rerank,q003,struktur data dan algoritma,algoritma,easy,1.0,1.0,1,0.82,1.0,0.9,1,0.8098
+C_Hybrid_no_rerank,q004,kecerdasan buatan machine learning,AI/ML,easy,1.0,1.0,1,0.9344,1.0,0.8,1,0.9868
+C_Hybrid_no_rerank,q005,deep learning neural network,AI/ML,medium,1.0,0.4,1,0.6367,1.0,0.2,1,0.6367
+C_Hybrid_no_rerank,q006,jaringan komputer protokol TCP IP,jaringan,easy,1.0,1.0,1,1.0,1.0,1.0,1,1.0
+C_Hybrid_no_rerank,q007,keamanan jaringan kriptografi,jaringan,medium,1.0,0.8,1,0.8304,1.0,0.5,1,0.8364
+C_Hybrid_no_rerank,q008,basis data relasional SQL,database,easy,0.3333,0.4,1,0.3008,0.3333,0.7,1,0.4661
+C_Hybrid_no_rerank,q009,pengembangan aplikasi web HTML CSS JavaScript,web,easy,1.0,0.6,1,0.7755,1.0,0.4,1,0.8566
+C_Hybrid_no_rerank,q010,sistem operasi manajemen proses memori,OS,medium,1.0,0.6,1,0.9675,1.0,0.3,1,0.9675
+C_Hybrid_no_rerank,q011,matematika diskrit untuk ilmu komputer,matematika,medium,1.0,0.6,1,1.0,1.0,0.3,1,1.0
+C_Hybrid_no_rerank,q012,data mining dan data warehouse,data,medium,1.0,0.6,1,0.9675,1.0,0.3,1,0.9675
+C_Hybrid_no_rerank,q013,pemrograman mobile Android,mobile,medium,0.3333,0.4,1,0.5706,0.3333,0.2,1,0.5706
+C_Hybrid_no_rerank,q014,rekayasa perangkat lunak software engineering,RPL,medium,1.0,1.0,1,1.0,1.0,0.8,1,0.8992
+C_Hybrid_no_rerank,q015,elektronika digital rangkaian logika,elektro,easy,1.0,1.0,1,0.9344,1.0,0.8,1,0.8637
+C_Hybrid_no_rerank,q016,mikrokontroler Arduino embedded system,elektro,medium,1.0,1.0,1,0.8734,1.0,0.6,1,0.7197
+C_Hybrid_no_rerank,q017,sistem tenaga listrik pembangkit,elektro,medium,1.0,1.0,1,0.927,1.0,0.9,1,0.9444
+C_Hybrid_no_rerank,q018,sinyal dan sistem telekomunikasi,elektro,hard,1.0,1.0,1,0.9218,1.0,0.9,1,0.9431
+C_Hybrid_no_rerank,q019,termodinamika perpindahan panas,mesin,medium,1.0,1.0,1,0.9093,1.0,1.0,1,0.9296
+C_Hybrid_no_rerank,q020,mekanika teknik statika dinamika,mesin,medium,1.0,1.0,1,1.0,1.0,1.0,1,0.9921
+C_Hybrid_no_rerank,q021,gambar teknik mesin manufaktur,mesin,easy,1.0,1.0,1,1.0,1.0,0.8,1,0.8701
+C_Hybrid_no_rerank,q022,mekanika tanah pondasi bangunan,sipil,medium,1.0,1.0,1,1.0,1.0,1.0,1,1.0
+C_Hybrid_no_rerank,q023,struktur beton bertulang konstruksi,sipil,medium,1.0,1.0,1,1.0,1.0,1.0,1,0.9914
+C_Hybrid_no_rerank,q024,hidrolika dan drainase jalan,sipil,hard,1.0,1.0,1,0.8471,1.0,0.8,1,0.7778
+C_Hybrid_no_rerank,q025,kimia organik reaksi senyawa karbon,kimia,medium,1.0,0.8,1,0.8304,1.0,0.6,1,0.7937
+C_Hybrid_no_rerank,q026,kimia analitik laboratorium instrumen,kimia,medium,1.0,0.6,1,0.866,1.0,0.3,1,0.866
+C_Hybrid_no_rerank,q027,teknik reaksi kimia perpindahan massa,kimia,hard,1.0,0.4,1,0.4852,1.0,0.2,1,0.4329
+C_Hybrid_no_rerank,q028,akuntansi keuangan dasar laporan,akuntansi,easy,1.0,0.4,1,0.2722,1.0,0.4,1,0.3468
+C_Hybrid_no_rerank,q029,akuntansi biaya manajemen perusahaan,akuntansi,medium,1.0,0.8,1,0.8909,1.0,0.8,1,0.8702
+C_Hybrid_no_rerank,q030,perpajakan dan audit keuangan,akuntansi,medium,0.5,0.2,1,0.214,0.5,0.5,1,0.4263
+C_Hybrid_no_rerank,q031,manajemen sumber daya manusia organisasi,manajemen,easy,1.0,1.0,1,0.992,1.0,1.0,1,0.9938
+C_Hybrid_no_rerank,q032,pemasaran digital marketing strategi,manajemen,medium,1.0,0.6,1,0.6226,1.0,0.6,1,0.6584
+C_Hybrid_no_rerank,q033,kewirausahaan bisnis startup UMKM,manajemen,easy,1.0,0.8,1,0.8304,1.0,0.8,1,0.8116
+C_Hybrid_no_rerank,q034,desain grafis tipografi layout,grafika,easy,1.0,0.6,1,0.7227,1.0,0.4,1,0.7323
+C_Hybrid_no_rerank,q035,teknik cetak offset digital printing,grafika,medium,1.0,0.4,1,0.6551,1.0,0.6,1,0.8173
+C_Hybrid_no_rerank,q036,buku buat belajar coding dari nol,pemrograman,hard,0.0,0.0,0,0.0,0.0,0.0,0,0.0
+C_Hybrid_no_rerank,q037,referensi buat skripsi sistem informasi,SI,hard,1.0,1.0,1,0.5351,1.0,0.9,1,0.6378
+C_Hybrid_no_rerank,q038,pengantar ilmu komputer mahasiswa semester 1,pengantar,easy,0.2,0.2,1,0.1815,0.2,0.1,1,0.1815
+C_Hybrid_no_rerank,q039,buku statistika buat analisis data penelitian,statistik,medium,1.0,0.8,1,0.9102,1.0,0.4,1,0.8014
+C_Hybrid_no_rerank,q040,pengantar ekonomi mikro makro,ekonomi,easy,1.0,1.0,1,0.927,1.0,0.9,1,0.8292
+D_Hybrid_rerank,q001,pemrograman Python untuk pemula,pemrograman,easy,0.0,0.0,0,0.0,0.1111,0.1,1,0.301
+D_Hybrid_rerank,q002,pemrograman berorientasi objek Java,pemrograman,easy,1.0,1.0,1,0.9344,1.0,0.7,1,0.7738
+D_Hybrid_rerank,q003,struktur data dan algoritma,algoritma,easy,0.3333,0.6,1,0.3813,0.3333,0.4,1,0.2841
+D_Hybrid_rerank,q004,kecerdasan buatan machine learning,AI/ML,easy,1.0,0.6,1,0.6399,1.0,0.5,1,0.6595
+D_Hybrid_rerank,q005,deep learning neural network,AI/ML,medium,0.3333,0.2,1,0.1952,0.3333,0.2,1,0.3342
+D_Hybrid_rerank,q006,jaringan komputer protokol TCP IP,jaringan,easy,1.0,1.0,1,0.9013,1.0,0.9,1,0.9272
+D_Hybrid_rerank,q007,keamanan jaringan kriptografi,jaringan,medium,1.0,0.4,1,0.4852,1.0,0.4,1,0.6293
+D_Hybrid_rerank,q008,basis data relasional SQL,database,easy,1.0,0.4,1,0.4852,1.0,0.6,1,0.6549
+D_Hybrid_rerank,q009,pengembangan aplikasi web HTML CSS JavaScript,web,easy,0.25,0.2,1,0.1209,0.25,0.1,1,0.1209
+D_Hybrid_rerank,q010,sistem operasi manajemen proses memori,OS,medium,1.0,0.2,1,0.4693,1.0,0.1,1,0.4693
+D_Hybrid_rerank,q011,matematika diskrit untuk ilmu komputer,matematika,medium,1.0,0.4,1,0.7763,1.0,0.3,1,0.8687
+D_Hybrid_rerank,q012,data mining dan data warehouse,data,medium,1.0,0.6,1,1.0,1.0,0.3,1,1.0
+D_Hybrid_rerank,q013,pemrograman mobile Android,mobile,medium,0.25,0.2,1,0.2641,0.25,0.1,1,0.2641
+D_Hybrid_rerank,q014,rekayasa perangkat lunak software engineering,RPL,medium,1.0,0.8,1,0.7626,1.0,0.7,1,0.7284
+D_Hybrid_rerank,q015,elektronika digital rangkaian logika,elektro,easy,0.0,0.0,0,0.0,0.1429,0.1,1,0.0445
+D_Hybrid_rerank,q016,mikrokontroler Arduino embedded system,elektro,medium,1.0,0.4,1,0.3512,1.0,0.6,1,0.5102
+D_Hybrid_rerank,q017,sistem tenaga listrik pembangkit,elektro,medium,1.0,0.8,1,0.6578,1.0,0.8,1,0.7396
+D_Hybrid_rerank,q018,sinyal dan sistem telekomunikasi,elektro,hard,1.0,0.4,1,0.2596,1.0,0.3,1,0.3016
+D_Hybrid_rerank,q019,termodinamika perpindahan panas,mesin,medium,1.0,0.8,1,0.6928,1.0,0.6,1,0.6203
+D_Hybrid_rerank,q020,mekanika teknik statika dinamika,mesin,medium,0.5,0.4,1,0.1726,0.5,0.4,1,0.1971
+D_Hybrid_rerank,q021,gambar teknik mesin manufaktur,mesin,easy,1.0,0.8,1,0.8539,1.0,0.5,1,0.6204
+D_Hybrid_rerank,q022,mekanika tanah pondasi bangunan,sipil,medium,1.0,0.8,1,0.6343,1.0,0.7,1,0.6837
+D_Hybrid_rerank,q023,struktur beton bertulang konstruksi,sipil,medium,1.0,0.6,1,0.6844,1.0,0.7,1,0.7231
+D_Hybrid_rerank,q024,hidrolika dan drainase jalan,sipil,hard,1.0,0.8,1,0.5594,1.0,0.7,1,0.5705
+D_Hybrid_rerank,q025,kimia organik reaksi senyawa karbon,kimia,medium,1.0,1.0,1,1.0,1.0,0.6,1,0.8219
+D_Hybrid_rerank,q026,kimia analitik laboratorium instrumen,kimia,medium,1.0,0.6,1,0.8121,1.0,0.3,1,0.8121
+D_Hybrid_rerank,q027,teknik reaksi kimia perpindahan massa,kimia,hard,0.0,0.0,0,0.0,0.0,0.0,0,0.0
+D_Hybrid_rerank,q028,akuntansi keuangan dasar laporan,akuntansi,easy,1.0,0.6,1,0.4887,1.0,0.3,1,0.379
+D_Hybrid_rerank,q029,akuntansi biaya manajemen perusahaan,akuntansi,medium,1.0,0.8,1,0.7356,1.0,0.6,1,0.6484
+D_Hybrid_rerank,q030,perpajakan dan audit keuangan,akuntansi,medium,0.25,0.2,1,0.1461,0.25,0.1,1,0.0948
+D_Hybrid_rerank,q031,manajemen sumber daya manusia organisasi,manajemen,easy,1.0,1.0,1,0.7948,1.0,0.7,1,0.7031
+D_Hybrid_rerank,q032,pemasaran digital marketing strategi,manajemen,medium,1.0,0.6,1,0.5556,1.0,0.3,1,0.4309
+D_Hybrid_rerank,q033,kewirausahaan bisnis startup UMKM,manajemen,easy,1.0,0.4,1,0.4852,1.0,0.4,1,0.4666
+D_Hybrid_rerank,q034,desain grafis tipografi layout,grafika,easy,1.0,0.2,1,0.3392,1.0,0.3,1,0.5015
+D_Hybrid_rerank,q035,teknik cetak offset digital printing,grafika,medium,1.0,0.6,1,0.5442,1.0,0.6,1,0.7132
+D_Hybrid_rerank,q036,buku buat belajar coding dari nol,pemrograman,hard,0.0,0.0,0,0.0,0.0,0.0,0,0.0
+D_Hybrid_rerank,q037,referensi buat skripsi sistem informasi,SI,hard,1.0,0.8,1,0.4988,1.0,0.8,1,0.6191
+D_Hybrid_rerank,q038,pengantar ilmu komputer mahasiswa semester 1,pengantar,easy,1.0,0.6,1,1.0,1.0,0.3,1,1.0
+D_Hybrid_rerank,q039,buku statistika buat analisis data penelitian,statistik,medium,0.5,0.2,1,0.2484,0.5,0.3,1,0.3256
+D_Hybrid_rerank,q040,pengantar ekonomi mikro makro,ekonomi,easy,0.0,0.0,0,0.0,0.1429,0.4,1,0.2474

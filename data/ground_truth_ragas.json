@@ -1,0 +1,252 @@
+[
+  {
+    "question": "Jam berapa perpustakaan PNJ buka pada hari Senin sampai Kamis?",
+    "ground_truth": "Perpustakaan PNJ buka pada hari Senin sampai Kamis pukul 08.00 sampai 16.00, dengan jam istirahat pukul 12.00 sampai 13.00.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Jam berapa perpustakaan PNJ buka pada hari Jumat?",
+    "ground_truth": "Perpustakaan PNJ buka pada hari Jumat pukul 08.00 sampai 16.30, dengan jam istirahat pukul 11.30 sampai 13.00.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Apakah perpustakaan PNJ buka pada hari Sabtu dan Minggu?",
+    "ground_truth": "Perpustakaan PNJ tidak buka pada hari Sabtu dan Minggu. Perpustakaan hanya beroperasi pada hari Senin sampai Jumat.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Berapa banyak buku yang bisa dipinjam sekaligus oleh mahasiswa?",
+    "ground_truth": "Mahasiswa dapat meminjam maksimal 2 judul buku sekaligus.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Berapa lama masa peminjaman buku di perpustakaan PNJ?",
+    "ground_truth": "Masa peminjaman buku di perpustakaan PNJ adalah selama 2 minggu dan dapat diperpanjang 1 kali masa peminjaman.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Berapa kali peminjaman buku bisa diperpanjang?",
+    "ground_truth": "Perpanjangan masa peminjaman buku hanya bisa dilakukan 1 kali masa peminjaman.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Bagaimana prosedur perpanjangan masa pinjam buku di perpustakaan PNJ?",
+    "ground_truth": "Untuk memperpanjang masa pinjam, pemustaka membawa buku yang akan diperpanjang lalu meregistrasi transaksi perpanjangan masa pinjam melalui petugas layanan sirkulasi. Perpanjangan hanya bisa dilakukan 1 kali.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Apakah ada denda jika terlambat mengembalikan buku di perpustakaan PNJ?",
+    "ground_truth": "Keterlambatan pengembalian buku tidak dikenakan denda uang, tetapi pemustaka wajib membantu pekerjaan di perpustakaan berdasarkan jumlah hari keterlambatan.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Apa yang terjadi jika buku yang dipinjam hilang atau rusak?",
+    "ground_truth": "Buku yang rusak atau hilang wajib diganti dengan buku yang sama, atau diganti dengan buku yang memiliki subyek, jumlah halaman, dan tahun terbit yang sama.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Apakah mahasiswa PNJ perlu mendaftar untuk menjadi anggota perpustakaan?",
+    "ground_truth": "Tidak perlu mendaftar. Civitas akademika Politeknik Negeri Jakarta sudah otomatis menjadi anggota perpustakaan PNJ.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Bagaimana prosedur peminjaman buku di perpustakaan PNJ?",
+    "ground_truth": "Prosedur peminjaman buku: pemustaka datang dan mengisi daftar kunjungan di SLiMs, menitipkan tas di tempat penitipan, mencari buku melalui katalog OPAC atau langsung ke rak, membawa buku ke meja sirkulasi, lalu meregistrasi buku yang dipinjam melalui petugas. Pemustaka menyerahkan KTM yang sudah terintegrasi dengan sistem perpustakaan.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Fasilitas apa saja yang tersedia di perpustakaan PNJ?",
+    "ground_truth": "Fasilitas yang tersedia di perpustakaan PNJ meliputi: OPAC, koleksi buku teks, ruang baca, ruang multimedia (CD, DVD, internet), WiFi gratis, loker penitipan barang, ruang rapat, BI Corner, taman dan teras, serta akses khusus untuk penyandang disabilitas.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Apakah perpustakaan PNJ menyediakan WiFi?",
+    "ground_truth": "Ya, perpustakaan PNJ menyediakan fasilitas internet gratis melalui hotspot WiFi untuk memenuhi kebutuhan informasi pendukung akademik pemustaka.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Di mana lokasi perpustakaan PNJ?",
+    "ground_truth": "Perpustakaan PNJ berlokasi di Jl. Prof. DR. G.A. Siwabessy, Kampus Universitas Indonesia, Depok 16425.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Bagaimana cara menghubungi perpustakaan PNJ?",
+    "ground_truth": "Perpustakaan PNJ dapat dihubungi melalui email perpustakaan@pnj.ac.id, WhatsApp di nomor 087886168799, atau telepon di 021-7270036 ext 303.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Apa visi perpustakaan PNJ?",
+    "ground_truth": "Visi perpustakaan PNJ adalah menjadi Gerai Informasi atau information resource center.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Apa misi perpustakaan PNJ?",
+    "ground_truth": "Misi perpustakaan PNJ adalah dapat memenuhi kebutuhan informasi civitas akademika PNJ guna keperluan proses pendidikan, penelitian, dan pengabdian pada masyarakat.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Sistem apa yang digunakan perpustakaan PNJ untuk manajemen layanan?",
+    "ground_truth": "Perpustakaan PNJ menggunakan sistem otomasi perpustakaan berbasis web SLiMs yaitu Senayan Library Management System untuk layanan sirkulasi dan OPAC.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Bagaimana cara mengakses katalog buku perpustakaan PNJ secara online?",
+    "ground_truth": "Katalog buku perpustakaan PNJ dapat diakses secara online melalui OPAC di alamat http://opac.perpustakaan.pnj.ac.id/ atau melalui website perpustakaan di http://perpustakaan.pnj.ac.id/",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Apakah perpustakaan PNJ memiliki layanan untuk mengakses tugas akhir atau skripsi mahasiswa?",
+    "ground_truth": "Ya, perpustakaan PNJ menyediakan layanan referensi yang membantu pengguna menemukan koleksi tugas akhir, skripsi, thesis, dan laporan praktek kerja lapangan mahasiswa PNJ. Repository dapat diakses di http://repository.pnj.ac.id/",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Kapan perpustakaan PNJ pertama kali berdiri?",
+    "ground_truth": "Perpustakaan PNJ berdiri seiring dengan dibukanya Program Pendidikan Politeknik Universitas Indonesia pada tahun 1982, dan mulai beroperasi pada tahun 1983.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Apakah perpustakaan PNJ ramah untuk penyandang disabilitas?",
+    "ground_truth": "Ya, perpustakaan PNJ ramah untuk disabilitas dengan menyediakan akses jalan khusus untuk pengguna kursi roda dan toilet khusus untuk penyandang disabilitas.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Apa itu BI Corner di perpustakaan PNJ?",
+    "ground_truth": "BI Corner adalah fasilitas hasil kerjasama antara perpustakaan PNJ dengan Bank Indonesia melalui perjanjian MOU. Fasilitas BI Corner dapat dimanfaatkan oleh civitas akademika PNJ.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Apa sistem layanan yang diterapkan di perpustakaan PNJ, apakah open access atau closed access?",
+    "ground_truth": "Perpustakaan PNJ menerapkan sistem layanan terbuka atau open access, yang berarti setiap pemustaka diperkenankan secara bebas mencari, memilih, dan mengambil sendiri buku yang disajikan sesuai kepentingannya.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Bagaimana prosedur pengembalian buku di perpustakaan PNJ?",
+    "ground_truth": "Prosedur pengembalian buku: pemustaka membawa buku yang akan dikembalikan, lalu meregistrasi transaksi pengembalian melalui petugas layanan sirkulasi. Jika terlambat, pemustaka dikenakan sanksi kerja di perpustakaan sesuai ketentuan.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Berapa harga tiket konser di Jakarta bulan ini?",
+    "ground_truth": "",
+    "query_type": "out_of_scope"
+  },
+  {
+    "question": "Bagaimana cara mendaftar ulang semester di PNJ?",
+    "ground_truth": "",
+    "query_type": "out_of_scope"
+  },
+  {
+    "question": "Apa menu makan siang di kantin PNJ hari ini?",
+    "ground_truth": "",
+    "query_type": "out_of_scope"
+  },
+  {
+    "question": "Siapa dosen terbaik di jurusan Teknik Informatika PNJ?",
+    "ground_truth": "",
+    "query_type": "out_of_scope"
+  },
+  {
+    "question": "Kapan jadwal UTS semester ini?",
+    "ground_truth": "",
+    "query_type": "out_of_scope"
+  },
+  {
+    "question": "Bagaimana prosedur bebas pustaka untuk mahasiswa yang akan wisuda di PNJ?",
+    "ground_truth": "Mahasiswa yang akan wisuda harus melakukan bebas pustaka di perpustakaan PNJ. Prosedurnya adalah mengembalikan semua buku yang dipinjam, melunasi denda jika ada, kemudian mengurus surat bebas pustaka ke petugas perpustakaan.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Apakah perpustakaan PNJ menyediakan layanan e-book atau buku digital?",
+    "ground_truth": "Perpustakaan PNJ menyediakan layanan e-book melalui platform KuBaCa PNJ, e-book Cambridge University Press, dan e-book Taylor & Francis. Mahasiswa dapat mengakses koleksi digital ini secara online.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Bagaimana cara mengakses e-book Cambridge di perpustakaan PNJ?",
+    "ground_truth": "E-book Cambridge dapat diakses melalui platform Cambridge Core. Mahasiswa PNJ perlu menggunakan akun institusi atau mengakses melalui jaringan kampus PNJ untuk mendapatkan akses penuh ke koleksi e-book Cambridge.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Apakah perpustakaan PNJ menyediakan layanan fotokopi atau cetak?",
+    "ground_truth": "Perpustakaan PNJ menyediakan layanan fotokopi dan cetak untuk mahasiswa. Layanan ini tersedia di area perpustakaan untuk membantu mahasiswa mendapatkan salinan bahan pustaka yang dibutuhkan.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Berapa jumlah koleksi buku yang dimiliki perpustakaan PNJ?",
+    "ground_truth": "Perpustakaan PNJ memiliki koleksi buku dalam jumlah ribuan judul yang mencakup berbagai bidang ilmu sesuai program studi di PNJ, termasuk teknik, informatika, bisnis, dan ilmu terapan lainnya.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Apa saja jenis koleksi yang tersedia di perpustakaan PNJ?",
+    "ground_truth": "Perpustakaan PNJ memiliki berbagai jenis koleksi, meliputi buku teks, jurnal, majalah ilmiah, tugas akhir dan skripsi mahasiswa, laporan penelitian, serta koleksi digital berupa e-book dan e-journal.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Apa sanksi jika mahasiswa melanggar tata tertib perpustakaan PNJ?",
+    "ground_truth": "Sanksi pelanggaran tata tertib perpustakaan PNJ disesuaikan dengan jenis pelanggaran. Pelanggaran ringan seperti keributan mendapat teguran, sedangkan pelanggaran berat seperti merusak atau mencuri buku dapat dikenakan sanksi lebih berat sesuai peraturan yang berlaku.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Apakah perpustakaan PNJ memiliki ruang baca khusus atau ruang diskusi?",
+    "ground_truth": "Perpustakaan PNJ menyediakan ruang baca dan fasilitas untuk belajar mandiri maupun diskusi kelompok bagi mahasiswa dan sivitas akademika PNJ.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Syarat apa saja yang diperlukan untuk menjadi anggota perpustakaan PNJ?",
+    "ground_truth": "Untuk menjadi anggota perpustakaan PNJ, mahasiswa perlu membawa KTM (Kartu Tanda Mahasiswa) yang masih berlaku dan mendaftarkan diri ke petugas perpustakaan. Keanggotaan perpustakaan terintegrasi dengan status mahasiswa aktif PNJ.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Apakah ada ketentuan berpakaian atau tata tertib khusus saat masuk perpustakaan PNJ?",
+    "ground_truth": "Pengunjung perpustakaan PNJ wajib berpakaian rapi dan sopan sesuai tata tertib yang berlaku. Pengunjung juga dilarang membawa makanan dan minuman, serta harus menjaga ketertiban dan ketenangan di dalam perpustakaan.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Bagaimana cara melaporkan jika ada kerusakan buku koleksi perpustakaan PNJ?",
+    "ground_truth": "Jika menemukan kerusakan pada buku koleksi perpustakaan PNJ, mahasiswa dapat melaporkannya langsung kepada petugas perpustakaan. Jangan mencoba memperbaiki sendiri karena dapat memperparah kerusakan.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Apakah perpustakaan PNJ menyediakan layanan referensi atau konsultasi literatur?",
+    "ground_truth": "Perpustakaan PNJ menyediakan layanan referensi untuk membantu mahasiswa dalam pencarian sumber informasi, pemilihan referensi yang tepat, serta bimbingan penggunaan fasilitas perpustakaan.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Bagaimana cara mengakses KuBaCa PNJ untuk membaca buku digital?",
+    "ground_truth": "KuBaCa PNJ adalah platform buku digital milik perpustakaan PNJ. Mahasiswa dapat mengakses KuBaCa melalui website perpustakaan PNJ atau aplikasi KuBaCa dengan menggunakan akun mahasiswa PNJ.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Apakah perpustakaan PNJ melayani tamu atau pengunjung dari luar kampus?",
+    "ground_truth": "Perpustakaan PNJ terutama melayani sivitas akademika PNJ. Untuk pengunjung dari luar kampus, terdapat ketentuan khusus yang berlaku dan perlu dikonfirmasi langsung kepada pihak perpustakaan.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Apakah ada program literasi informasi atau pelatihan penggunaan perpustakaan untuk mahasiswa baru PNJ?",
+    "ground_truth": "Perpustakaan PNJ menyelenggarakan program orientasi dan literasi informasi untuk mahasiswa baru agar dapat memanfaatkan fasilitas dan layanan perpustakaan secara optimal.",
+    "query_type": "general_info"
+  },
+  {
+    "question": "Kapan jadwal seminar nasional di PNJ tahun ini?",
+    "ground_truth": "",
+    "query_type": "out_of_scope"
+  },
+  {
+    "question": "Berapa nilai minimum untuk lulus mata kuliah Algoritma di PNJ?",
+    "ground_truth": "",
+    "query_type": "out_of_scope"
+  },
+  {
+    "question": "Apakah ada lowongan magang di perusahaan teknologi Jakarta?",
+    "ground_truth": "",
+    "query_type": "out_of_scope"
+  },
+  {
+    "question": "Bagaimana cara membuat akun media sosial Instagram?",
+    "ground_truth": "",
+    "query_type": "out_of_scope"
+  },
+  {
+    "question": "Apa prediksi cuaca di Depok besok?",
+    "ground_truth": "",
+    "query_type": "out_of_scope"
+  }
+]

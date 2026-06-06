@@ -1,0 +1,12 @@
+{
+  "refreshed": "2026-06-05 13:22:59",
+  "ollama_version": "ollama version is 0.30.4",
+  "model": "qwen3.5:4b",
+  "endpoint": "http://localhost:11434/api/chat",
+  "temperature": 0,
+  "think": false,
+  "format": "json",
+  "n_queries": 82,
+  "llm_router_accuracy": 0.9634,
+  "note": "Kolom keyword (pure_rule) & XLM-R (current) dipertahankan dari baseline deterministik; hanya LLM-router di-refresh pada versi model saat ini."
+}

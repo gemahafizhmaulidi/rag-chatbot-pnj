@@ -1,0 +1,112 @@
+[2026-06-03 07:18:06,103] INFO Threshold dari kalibrasi: reranker=0.0779, hardstop=0.4108
+[2026-06-03 07:18:06,104] INFO Memuat sistem RAG v3...
+[2026-06-03 07:18:06,114] INFO No device provided, using mps
+[2026-06-03 07:18:06,427] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[2026-06-03 07:18:06,429] WARNING Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[2026-06-03 07:18:06,438] INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/modules.json "HTTP/1.1 200 OK"
+[2026-06-03 07:18:06,705] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[2026-06-03 07:18:06,719] INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[2026-06-03 07:18:06,721] INFO Loading SentenceTransformer model from BAAI/bge-m3.
+[2026-06-03 07:18:06,982] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[2026-06-03 07:18:06,994] INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[2026-06-03 07:18:07,257] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[2026-06-03 07:18:07,268] INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/README.md "HTTP/1.1 200 OK"
+[2026-06-03 07:18:07,530] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[2026-06-03 07:18:07,542] INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/modules.json "HTTP/1.1 200 OK"
+[2026-06-03 07:18:07,799] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-06-03 07:18:07,810] INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/sentence_bert_config.json "HTTP/1.1 200 OK"
+[2026-06-03 07:18:08,080] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[2026-06-03 07:18:08,374] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-06-03 07:18:08,386] INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/config.json "HTTP/1.1 200 OK"
+[2026-06-03 07:18:08,680] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+Init sistem (retriever + LLM produksi)...
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 60098.68it/s]
+[2026-06-03 07:18:08,940] INFO HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3 "HTTP/1.1 200 OK"
+[2026-06-03 07:18:09,099] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+[2026-06-03 07:18:09,231] INFO HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3/commits/main "HTTP/1.1 200 OK"
+[2026-06-03 07:18:09,372] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+[2026-06-03 07:18:09,522] INFO HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3/discussions?p=0 "HTTP/1.1 200 OK"
+[2026-06-03 07:18:09,639] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+[2026-06-03 07:18:09,805] INFO HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3/commits/refs%2Fpr%2F130 "HTTP/1.1 200 OK"
+[2026-06-03 07:18:09,905] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+[2026-06-03 07:18:10,075] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/refs%2Fpr%2F130/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+[2026-06-03 07:18:10,175] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-06-03 07:18:10,188] INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-06-03 07:18:10,335] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/refs%2Fpr%2F130/model.safetensors "HTTP/1.1 302 Found"
+[2026-06-03 07:18:10,450] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-06-03 07:18:10,462] INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/config.json "HTTP/1.1 200 OK"
+[2026-06-03 07:18:10,730] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-06-03 07:18:10,742] INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/config.json "HTTP/1.1 200 OK"
+[2026-06-03 07:18:11,004] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-06-03 07:18:11,016] INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-06-03 07:18:11,275] INFO HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[2026-06-03 07:18:11,548] INFO HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[2026-06-03 07:18:12,981] INFO HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3 "HTTP/1.1 200 OK"
+[2026-06-03 07:18:13,256] INFO HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-06-03 07:18:13,268] INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[2026-06-03 07:18:13,531] INFO HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3 "HTTP/1.1 200 OK"
+[2026-06-03 07:18:17,212] INFO Katalog: 9,084 buku | 9,014 ada deskripsi | 3,099 ada eksemplar tersedia
+[2026-06-03 07:18:17,214] INFO Membangun BM25 index...
+[2026-06-03 07:18:17,341] INFO Embeddings dimuat dari cache: (9084, 1024)
+[2026-06-03 07:18:17,341] INFO HybridRetriever siap — 9,084 buku | fusion=weighted
+[2026-06-03 07:18:17,474] INFO ChromaDB KB: 196 chunks
+[2026-06-03 07:18:17,474] INFO Sistem RAG v3 siap ✓ (Config C: Hybrid BM25+Dense, tanpa reranker)
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.55it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.55it/s]
+[2026-06-03 07:18:55,155] INFO LLM content len=1992 | preview='Berikut adalah buku yang relevan dengan topik **Machine Learning untuk pemula** '
+[2026-06-03 07:19:22,499] INFO LLM content len=1641 | preview='Berikut adalah buku-buku yang relevan dengan topik **Machine Learning untuk pemu'
+[ 1] with=5 without=5 | desc 5/5 | buku machine learning untuk pemula
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.66it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.66it/s]
+[2026-06-03 07:20:04,455] INFO LLM content len=2398 | preview='Berikut adalah rekomendasi buku jaringan komputer yang tersedia di perpustakaan '
+[2026-06-03 07:20:38,960] INFO LLM content len=2012 | preview='Berikut adalah rekomendasi buku jaringan komputer yang tersedia di perpustakaan '
+[ 2] with=5 without=5 | desc 5/5 | rekomendasi buku jaringan komputer untuk s
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.10it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.10it/s]
+[2026-06-03 07:21:17,265] INFO LLM content len=2059 | preview='Berikut adalah buku-buku yang relevan dengan topik **Basis Data dan SQL** dari k'
+[2026-06-03 07:21:54,242] INFO LLM content len=2056 | preview='Berikut adalah buku-buku yang relevan dengan topik **Basis Data dan SQL** dari k'
+[ 3] with=5 without=5 | desc 5/5 | buku basis data dan SQL
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.59it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.59it/s]
+[2026-06-03 07:22:28,427] INFO LLM content len=1633 | preview='Berikut adalah buku-buku yang relevan dengan topik **pemrograman web JavaScript*'
+[2026-06-03 07:22:58,433] INFO LLM content len=1384 | preview='Berikut adalah buku yang relevan dengan topik **pemrograman web javascript** dar'
+[ 4] with=4 without=2 | desc 4/5 | buku pemrograman web javascript
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.04it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.03it/s]
+[2026-06-03 07:23:42,966] INFO LLM content len=1997 | preview='Berikut adalah buku-buku yang relevan dengan topik **Akuntansi Biaya** yang ters'
+[2026-06-03 07:24:25,859] INFO LLM content len=1863 | preview='Berikut adalah buku-buku yang relevan dengan topik **Akuntansi Biaya** yang ters'
+[ 5] with=5 without=2 | desc 5/5 | buku akuntansi biaya
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.73it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.73it/s]
+[2026-06-03 07:25:14,398] INFO LLM content len=2160 | preview='Berikut adalah buku yang relevan dengan topik **Struktur Data dan Algoritma** da'
+[2026-06-03 07:25:54,889] INFO LLM content len=1752 | preview='Berikut adalah buku-buku yang relevan dengan topik **Struktur Data dan Algoritma'
+[ 6] with=5 without=2 | desc 5/5 | buku struktur data dan algoritma
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.06it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.06it/s]
+[2026-06-03 07:26:29,057] INFO LLM content len=1395 | preview='Berikut adalah buku yang relevan dengan topik **Kecerdasan Buatan** dari koleksi'
+[2026-06-03 07:27:09,511] INFO LLM content len=1698 | preview='Berikut adalah buku-buku yang relevan dengan topik **Kecerdasan Buatan** dari ko'
+[ 7] with=5 without=2 | desc 5/5 | buku kecerdasan buatan
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.58it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.58it/s]
+[2026-06-03 07:28:02,302] INFO LLM content len=2343 | preview='Berikut adalah buku-buku yang relevan dengan topik **Mikrokontroler Arduino** da'
+[2026-06-03 07:28:29,865] INFO LLM content len=1293 | preview='Berikut adalah buku yang relevan dengan topik **mikrokontroler Arduino** dari ko'
+[ 8] with=5 without=4 | desc 5/5 | buku mikrokontroler arduino
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.11it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.10it/s]
+[2026-06-03 07:29:16,102] INFO LLM content len=1868 | preview='Berikut adalah buku-buku yang relevan dengan topik **Manajemen Pemasaran** dari '
+[2026-06-03 07:29:41,725] INFO LLM content len=863 | preview='Berikut adalah buku yang relevan dengan topik **Manajemen Pemasaran** dari kolek'
+[ 9] with=5 without=1 | desc 5/5 | buku manajemen pemasaran
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.02it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.02it/s]
+[2026-06-03 07:30:34,303] INFO LLM content len=2364 | preview='Berikut adalah buku-buku yang relevan dengan topik **statistika untuk penelitian'
+[2026-06-03 07:31:22,835] INFO LLM content len=2039 | preview='Berikut adalah buku-buku yang relevan dengan topik **statistika untuk penelitian'
+[10] with=5 without=5 | desc 3/5 | buku statistika untuk penelitian
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.94it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.92it/s]
+[2026-06-03 07:31:55,314] INFO LLM content len=1317 | preview='Berikut adalah buku yang relevan dengan topik **Sistem Operasi** dari koleksi Po'
+[2026-06-03 07:32:18,722] INFO LLM content len=957 | preview='Berikut adalah buku yang relevan dengan topik **Sistem Operasi** dari koleksi pe'
+[11] with=5 without=4 | desc 4/5 | buku sistem operasi
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.00it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.00it/s]
+[2026-06-03 07:33:24,722] INFO LLM content len=2632 | preview='Berikut adalah buku-buku yang relevan dengan topik **Keamanan Jaringan dan Kript'
+[2026-06-03 07:34:13,803] INFO LLM content len=2127 | preview='Berikut adalah buku-buku yang relevan dengan topik **Keamanan Jaringan dan Kript'
+[12] with=5 without=5 | desc 5/5 | buku keamanan jaringan dan kriptografi
+
+============================================================
+KUALITAS JAWABAN (LLM-judge openai/gpt-4o-mini, 12 query valid)
+============================================================
+  Skor rata-rata DENGAN deskripsi  : 4.92
+  Skor rata-rata TANPA deskripsi   : 3.50
+  Delta                            : +1.42
+  Per query: with menang=7 | seri=5 | without menang=0
+
+CSV: /Users/gema/Documents/Skripsi RAG Chatbot Perpustakaan Politeknik Negeri Jakarta/Teknis RAG Chatbot Perpustakaan/rag-system-v3/output/enrichment_answer_quality.csv

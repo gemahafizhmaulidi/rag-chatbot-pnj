@@ -1,0 +1,946 @@
+[
+  {
+    "query_id": "q001",
+    "query": "pemrograman Python untuk pemula",
+    "topic": "pemrograman",
+    "difficulty": "easy",
+    "jurusan": "TI",
+    "relevant_ids": {
+      "2": [
+        18319
+      ],
+      "1": []
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q002",
+    "query": "pemrograman berorientasi objek Java",
+    "topic": "pemrograman",
+    "difficulty": "easy",
+    "jurusan": "TI",
+    "relevant_ids": {
+      "2": [
+        6034,
+        4756,
+        8423,
+        165,
+        4596,
+        223,
+        18010,
+        6839,
+        18009
+      ],
+      "1": [
+        8264,
+        8262
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q003",
+    "query": "struktur data dan algoritma",
+    "topic": "algoritma",
+    "difficulty": "easy",
+    "jurusan": "TI",
+    "relevant_ids": {
+      "2": [
+        2390,
+        18023,
+        5048,
+        18056,
+        7464,
+        5995,
+        7799,
+        18611,
+        18302,
+        18001
+      ],
+      "1": [
+        8137,
+        318,
+        18319,
+        5996
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q004",
+    "query": "kecerdasan buatan machine learning",
+    "topic": "AI/ML",
+    "difficulty": "easy",
+    "jurusan": "TI",
+    "relevant_ids": {
+      "2": [
+        8123,
+        17981,
+        18007,
+        17989,
+        17976,
+        17980,
+        17992
+      ],
+      "1": [
+        17951
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q005",
+    "query": "deep learning neural network",
+    "topic": "AI/ML",
+    "difficulty": "medium",
+    "jurusan": "TI",
+    "relevant_ids": {
+      "2": [],
+      "1": [
+        18007,
+        17989,
+        17980,
+        17981
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q006",
+    "query": "jaringan komputer protokol TCP IP",
+    "topic": "jaringan",
+    "difficulty": "easy",
+    "jurusan": "TI",
+    "relevant_ids": {
+      "2": [
+        164,
+        5753,
+        5605,
+        7291
+      ],
+      "1": [
+        6022,
+        6100,
+        5500,
+        7342,
+        7012,
+        265,
+        8025,
+        8496
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q007",
+    "query": "keamanan jaringan kriptografi",
+    "topic": "jaringan",
+    "difficulty": "medium",
+    "jurusan": "TI",
+    "relevant_ids": {
+      "2": [],
+      "1": [
+        8121,
+        7291,
+        18099,
+        8122,
+        6258,
+        6077
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q008",
+    "query": "basis data relasional SQL",
+    "topic": "database",
+    "difficulty": "easy",
+    "jurusan": "TI",
+    "relevant_ids": {
+      "2": [
+        7856,
+        7117,
+        6722,
+        5284,
+        18065,
+        7104
+      ],
+      "1": [
+        15349,
+        7113,
+        8335,
+        8283,
+        18059,
+        7229,
+        2249,
+        5726
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q009",
+    "query": "pengembangan aplikasi web HTML CSS JavaScript",
+    "topic": "web",
+    "difficulty": "easy",
+    "jurusan": "TI",
+    "relevant_ids": {
+      "2": [
+        6837
+      ],
+      "1": [
+        7977,
+        7055,
+        8363
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q010",
+    "query": "sistem operasi manajemen proses memori",
+    "topic": "OS",
+    "difficulty": "medium",
+    "jurusan": "TI",
+    "relevant_ids": {
+      "2": [],
+      "1": [
+        6270,
+        5425,
+        4860
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q011",
+    "query": "matematika diskrit untuk ilmu komputer",
+    "topic": "matematika",
+    "difficulty": "medium",
+    "jurusan": "TI",
+    "relevant_ids": {
+      "2": [
+        8188
+      ],
+      "1": [
+        6115,
+        6598
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q012",
+    "query": "data mining dan data warehouse",
+    "topic": "data",
+    "difficulty": "medium",
+    "jurusan": "TI",
+    "relevant_ids": {
+      "2": [],
+      "1": [
+        13644,
+        17976,
+        4832
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q013",
+    "query": "pemrograman mobile Android",
+    "topic": "mobile",
+    "difficulty": "medium",
+    "jurusan": "TI",
+    "relevant_ids": {
+      "2": [],
+      "1": [
+        18064,
+        7040
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q014",
+    "query": "rekayasa perangkat lunak software engineering",
+    "topic": "RPL",
+    "difficulty": "medium",
+    "jurusan": "TI",
+    "relevant_ids": {
+      "2": [
+        5750,
+        8139
+      ],
+      "1": [
+        7843,
+        18346,
+        8720,
+        7427,
+        3520,
+        4920,
+        4196,
+        4921
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q015",
+    "query": "elektronika digital rangkaian logika",
+    "topic": "elektro",
+    "difficulty": "easy",
+    "jurusan": "TE",
+    "relevant_ids": {
+      "2": [
+        4962,
+        4158,
+        703,
+        4157,
+        9785
+      ],
+      "1": [
+        6493,
+        6464,
+        2922,
+        1129,
+        3692,
+        5945
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q016",
+    "query": "mikrokontroler Arduino embedded system",
+    "topic": "elektro",
+    "difficulty": "medium",
+    "jurusan": "TE",
+    "relevant_ids": {
+      "2": [
+        18412
+      ],
+      "1": [
+        8892,
+        18054,
+        8870,
+        7038,
+        7953,
+        236,
+        6968,
+        6840
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q017",
+    "query": "sistem tenaga listrik pembangkit",
+    "topic": "elektro",
+    "difficulty": "medium",
+    "jurusan": "TE",
+    "relevant_ids": {
+      "2": [
+        4717,
+        13108,
+        3872,
+        13111,
+        3609
+      ],
+      "1": [
+        3053,
+        3054,
+        4176,
+        6159,
+        5166,
+        6451,
+        8379,
+        5188,
+        2894,
+        2893,
+        785
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q018",
+    "query": "sinyal dan sistem telekomunikasi",
+    "topic": "elektro",
+    "difficulty": "hard",
+    "jurusan": "TE",
+    "relevant_ids": {
+      "2": [
+        7576,
+        7574,
+        11103,
+        14267
+      ],
+      "1": [
+        1688,
+        3885,
+        5437,
+        7573,
+        2150,
+        1879,
+        335
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q019",
+    "query": "termodinamika perpindahan panas",
+    "topic": "mesin",
+    "difficulty": "medium",
+    "jurusan": "TM",
+    "relevant_ids": {
+      "2": [
+        8298,
+        3082,
+        8827,
+        4904
+      ],
+      "1": [
+        1627,
+        2229,
+        5580,
+        4451,
+        2457,
+        1150,
+        2117,
+        1961,
+        5582,
+        7144,
+        4008,
+        11107,
+        3562,
+        2458,
+        1149,
+        4519
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q020",
+    "query": "mekanika teknik statika dinamika",
+    "topic": "mesin",
+    "difficulty": "medium",
+    "jurusan": "TM",
+    "relevant_ids": {
+      "2": [
+        4693,
+        8197,
+        3792,
+        4399,
+        827,
+        4752,
+        4871,
+        4696
+      ],
+      "1": [
+        3791,
+        4400,
+        4697,
+        4698,
+        8865,
+        149,
+        5691,
+        933,
+        3519
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q021",
+    "query": "gambar teknik mesin manufaktur",
+    "topic": "mesin",
+    "difficulty": "easy",
+    "jurusan": "TM",
+    "relevant_ids": {
+      "2": [],
+      "1": [
+        125,
+        6625,
+        828,
+        1077,
+        1078,
+        6383,
+        3399,
+        5356,
+        210,
+        5190,
+        13208,
+        5274
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q022",
+    "query": "mekanika tanah pondasi bangunan",
+    "topic": "sipil",
+    "difficulty": "medium",
+    "jurusan": "TS",
+    "relevant_ids": {
+      "2": [
+        2705,
+        2354
+      ],
+      "1": [
+        1115,
+        8844,
+        7725,
+        7726,
+        3012,
+        3789,
+        216,
+        1329,
+        3108,
+        7727,
+        1851,
+        4454,
+        1488,
+        1332,
+        1604,
+        18090,
+        18091,
+        8305
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q023",
+    "query": "struktur beton bertulang konstruksi",
+    "topic": "sipil",
+    "difficulty": "medium",
+    "jurusan": "TS",
+    "relevant_ids": {
+      "2": [
+        8818,
+        7182,
+        1285,
+        7272,
+        7547,
+        4179
+      ],
+      "1": [
+        7532,
+        7869,
+        7679,
+        577,
+        2905,
+        7546,
+        3665,
+        7821,
+        4602,
+        1570,
+        5827,
+        2254,
+        7549,
+        9019
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q024",
+    "query": "hidrolika dan drainase jalan",
+    "topic": "sipil",
+    "difficulty": "hard",
+    "jurusan": "TS",
+    "relevant_ids": {
+      "2": [
+        3430,
+        7379
+      ],
+      "1": [
+        18337,
+        18413,
+        3888,
+        6385,
+        1458,
+        3286,
+        5524,
+        5195,
+        8879,
+        139,
+        35,
+        7875,
+        9112
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q025",
+    "query": "kimia organik reaksi senyawa karbon",
+    "topic": "kimia",
+    "difficulty": "medium",
+    "jurusan": "TK",
+    "relevant_ids": {
+      "2": [],
+      "1": [
+        7601,
+        7568,
+        5664,
+        1204,
+        8929,
+        7303,
+        1017,
+        747
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q026",
+    "query": "kimia analitik laboratorium instrumen",
+    "topic": "kimia",
+    "difficulty": "medium",
+    "jurusan": "TK",
+    "relevant_ids": {
+      "2": [
+        6964,
+        8929
+      ],
+      "1": [
+        2640,
+        8130
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q027",
+    "query": "teknik reaksi kimia perpindahan massa",
+    "topic": "kimia",
+    "difficulty": "hard",
+    "jurusan": "TK",
+    "relevant_ids": {
+      "2": [],
+      "1": [
+        18417,
+        7677,
+        8130,
+        1314,
+        4649,
+        1104
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q028",
+    "query": "akuntansi keuangan dasar laporan",
+    "topic": "akuntansi",
+    "difficulty": "easy",
+    "jurusan": "AK",
+    "relevant_ids": {
+      "2": [
+        18470,
+        6149,
+        1989,
+        2873
+      ],
+      "1": [
+        4217,
+        6810,
+        8671,
+        8796,
+        7520,
+        6564,
+        18471,
+        20,
+        4172,
+        13022
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q029",
+    "query": "akuntansi biaya manajemen perusahaan",
+    "topic": "akuntansi",
+    "difficulty": "medium",
+    "jurusan": "AK",
+    "relevant_ids": {
+      "2": [
+        2198
+      ],
+      "1": [
+        17,
+        18377,
+        5475,
+        15,
+        963,
+        6804,
+        15323,
+        2195,
+        2493,
+        1038,
+        2197,
+        7175,
+        16
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q030",
+    "query": "perpajakan dan audit keuangan",
+    "topic": "akuntansi",
+    "difficulty": "medium",
+    "jurusan": "AK",
+    "relevant_ids": {
+      "2": [],
+      "1": [
+        17756,
+        7468,
+        6733,
+        84,
+        7826,
+        8896,
+        13836,
+        5561,
+        13842,
+        7079,
+        8296
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q031",
+    "query": "manajemen sumber daya manusia organisasi",
+    "topic": "manajemen",
+    "difficulty": "easy",
+    "jurusan": "AB",
+    "relevant_ids": {
+      "2": [
+        8185,
+        205,
+        8947,
+        4675
+      ],
+      "1": [
+        3829,
+        8184,
+        12942,
+        4676,
+        5239,
+        17765,
+        124,
+        1557,
+        1656,
+        5765,
+        3105
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q032",
+    "query": "pemasaran digital marketing strategi",
+    "topic": "manajemen",
+    "difficulty": "medium",
+    "jurusan": "AB",
+    "relevant_ids": {
+      "2": [
+        7227,
+        1240,
+        7834,
+        247
+      ],
+      "1": [
+        7867,
+        5255,
+        1659,
+        4830,
+        5455,
+        5242
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q033",
+    "query": "kewirausahaan bisnis startup UMKM",
+    "topic": "manajemen",
+    "difficulty": "easy",
+    "jurusan": "AB",
+    "relevant_ids": {
+      "2": [],
+      "1": [
+        6579,
+        18621,
+        6668,
+        15358,
+        5376,
+        15452,
+        8980,
+        8962,
+        8584,
+        15624,
+        8127,
+        8012,
+        8202,
+        8665
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q034",
+    "query": "desain grafis tipografi layout",
+    "topic": "grafika",
+    "difficulty": "easy",
+    "jurusan": "TGP",
+    "relevant_ids": {
+      "2": [],
+      "1": [
+        18112,
+        5306,
+        7310,
+        7804,
+        17815,
+        7907
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q035",
+    "query": "teknik cetak offset digital printing",
+    "topic": "grafika",
+    "difficulty": "medium",
+    "jurusan": "TGP",
+    "relevant_ids": {
+      "2": [
+        18331,
+        18300
+      ],
+      "1": [
+        17817,
+        5203,
+        737,
+        17808,
+        736
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q036",
+    "query": "buku buat belajar coding dari nol",
+    "topic": "pemrograman",
+    "difficulty": "hard",
+    "jurusan": "TI",
+    "relevant_ids": {
+      "2": [],
+      "1": []
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q037",
+    "query": "referensi buat skripsi sistem informasi",
+    "topic": "SI",
+    "difficulty": "hard",
+    "jurusan": "TI",
+    "relevant_ids": {
+      "2": [
+        41,
+        13018,
+        8202,
+        7855
+      ],
+      "1": [
+        8734,
+        8122,
+        6175,
+        5051,
+        4483,
+        4747,
+        7114,
+        4919,
+        5280,
+        9014,
+        9111,
+        9015,
+        5986
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q038",
+    "query": "pengantar ilmu komputer mahasiswa semester 1",
+    "topic": "pengantar",
+    "difficulty": "easy",
+    "jurusan": "TI",
+    "relevant_ids": {
+      "2": [],
+      "1": [
+        1717,
+        5139,
+        7912
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q039",
+    "query": "buku statistika buat analisis data penelitian",
+    "topic": "statistik",
+    "difficulty": "medium",
+    "jurusan": "ALL",
+    "relevant_ids": {
+      "2": [
+        8740,
+        15375,
+        7228
+      ],
+      "1": [
+        7184,
+        8476,
+        1135,
+        3029
+      ]
+    },
+    "annotator": "annotator_1"
+  },
+  {
+    "query_id": "q040",
+    "query": "pengantar ekonomi mikro makro",
+    "topic": "ekonomi",
+    "difficulty": "easy",
+    "jurusan": "AB",
+    "relevant_ids": {
+      "2": [
+        5883,
+        2760,
+        8646,
+        3454,
+        3453,
+        5902,
+        5940,
+        2544,
+        2762
+      ],
+      "1": [
+        5279,
+        6103,
+        4126,
+        8029,
+        6602,
+        4019,
+        2333,
+        3550
+      ]
+    },
+    "annotator": "annotator_1"
+  }
+]

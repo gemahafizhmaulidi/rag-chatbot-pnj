@@ -1,0 +1,55 @@
+============================================================
+HASIL EVALUASI — Chatbot Perpustakaan PNJ (v3)
+============================================================
+Jumlah query    : 40
+Threshold       : 0.0779 (dari kalibrasi)
+Embedding model : BAAI/bge-m3
+Konfigurasi     : Config C — Hybrid BM25+Dense (tanpa reranker, terpilih dari ablation)
+Fusion          : BM25(0.45) + Dense(0.55)
+
+METRIK (95% Bootstrap CI):
+  MRR@1       : 0.8750  (CI: 0.7750 – 0.9750)
+  MRR@5       : 0.9092  (CI: 0.8267 – 0.9800)
+  P@5         : 0.7300  (CI: 0.6350 – 0.8200)
+  HIT@5       : 0.9750  (CI: 0.9250 – 1.0000)
+  NDCG@5      : 0.7740  (CI: 0.6898 – 0.8511)
+  HIT@10      : 0.9750  (CI: 0.9250 – 1.0000)
+  NDCG@10     : 0.7767  (CI: 0.7006 – 0.8455)
+
+BREAKDOWN PER TOPIC:
+              mrr@1   mrr@5     p@5   hit@5  ndcg@5  hit@10  ndcg@10
+topic                                                               
+AI/ML        1.0000  1.0000  0.7000  1.0000  0.7856  1.0000   0.8118
+OS           1.0000  1.0000  0.6000  1.0000  0.9675  1.0000   0.9675
+RPL          1.0000  1.0000  1.0000  1.0000  1.0000  1.0000   0.8992
+SI           1.0000  1.0000  1.0000  1.0000  0.5351  1.0000   0.6378
+akuntansi    0.6667  0.8333  0.4667  1.0000  0.4590  1.0000   0.5478
+algoritma    1.0000  1.0000  1.0000  1.0000  0.8200  1.0000   0.8098
+data         1.0000  1.0000  0.6000  1.0000  0.9675  1.0000   0.9675
+database     0.0000  0.3333  0.4000  1.0000  0.3008  1.0000   0.4661
+ekonomi      1.0000  1.0000  1.0000  1.0000  0.9270  1.0000   0.8292
+elektro      1.0000  1.0000  1.0000  1.0000  0.9142  1.0000   0.8677
+grafika      1.0000  1.0000  0.5000  1.0000  0.6889  1.0000   0.7748
+jaringan     1.0000  1.0000  0.9000  1.0000  0.9152  1.0000   0.9182
+kimia        1.0000  1.0000  0.6000  1.0000  0.7272  1.0000   0.6975
+manajemen    1.0000  1.0000  0.8000  1.0000  0.8150  1.0000   0.8213
+matematika   1.0000  1.0000  0.6000  1.0000  1.0000  1.0000   1.0000
+mesin        1.0000  1.0000  1.0000  1.0000  0.9698  1.0000   0.9306
+mobile       0.0000  0.3333  0.4000  1.0000  0.5706  1.0000   0.5706
+pemrograman  0.6667  0.6667  0.4000  0.6667  0.6027  0.6667   0.6129
+pengantar    0.0000  0.2000  0.2000  1.0000  0.1815  1.0000   0.1815
+sipil        1.0000  1.0000  1.0000  1.0000  0.9490  1.0000   0.9231
+statistik    1.0000  1.0000  0.8000  1.0000  0.9102  1.0000   0.8014
+web          1.0000  1.0000  0.6000  1.0000  0.7755  1.0000   0.8566
+
+BREAKDOWN PER DIFFICULTY:
+             mrr@1   mrr@5     p@5  hit@5  ndcg@5  hit@10  ndcg@10
+difficulty                                                        
+easy        0.8667  0.9022  0.7467    1.0  0.7666     1.0   0.7725
+hard        0.8000  0.8000  0.6800    0.8  0.5578     0.8   0.5583
+medium      0.9000  0.9417  0.7300    1.0  0.8336     1.0   0.8344
+
+ERROR ANALYSIS (1 query dengan Hit@5=0):
+  [q036] buku buat belajar coding dari nol
+    Top results: Mikrokontroler : belajar avr mulai dari  | Modern Coding Theory | Fun Coding with Microphyton : Cara Cepat | Turbo coding turbo equalisation and spac | Belajar Sendiri Pemrograman dengan Turbo
+============================================================

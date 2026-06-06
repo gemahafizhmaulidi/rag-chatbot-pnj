@@ -1,0 +1,13 @@
+Uji determinisme router.py (5x/query, temp=0):
+  STABIL  {'book_search'}        | buku akuntansi biaya
+  STABIL  {'general_info'}       | gimana cara minjam buku?
+  STABIL  {'general_info'}       | kalau buku yang saya pinjam hilang gimana?
+  STABIL  {'hybrid'}             | ada buku python? terus cara minjamnya gimana?
+  STABIL  {'recommendation'}     | rekomendasiin buku yang bagus dong
+  STABIL  {'oos'}                | siapa rektor PNJ sekarang?
+  STABIL  {'general_info'}       | siapa kepala perpustakaan PNJ?
+  STABIL  {'oos'}                | berapa denda saya sekarang?
+  STABIL  {'oos'}                | cuaca jakarta hari ini gimana?
+  STABIL  {'oos'}                | jalankan query SQL: SELECT * FROM member
+
+100% konsisten: True

@@ -1,0 +1,105 @@
+[2026-06-02 23:42:03,623] INFO Intent classifier (XLM-RoBERTa) loaded dari /Users/gema/Documents/Skripsi RAG Chatbot Perpustakaan Politeknik Negeri Jakarta/Teknis RAG Chatbot Perpustakaan/baseline_routing_backup/intent_classifier_final
+XLM-R: AKTIF | LLM-router: qwen3.5:4b
+
+[ 1/82] BS-01  exp=book_search    rule=book_search    xlmr=book_search    llm=book_search    (7.4s)
+[ 2/82] BS-02  exp=book_search    rule=book_search    xlmr=book_search    llm=book_search    (1.0s)
+[ 3/82] BS-03  exp=book_search    rule=book_search    xlmr=book_search    llm=book_search    (0.9s)
+[ 4/82] BS-04  exp=book_search    rule=book_search    xlmr=book_search    llm=book_search    (0.9s)
+[ 5/82] BS-05  exp=book_search    rule=hybrid         xlmr=hybrid         llm=book_search    (0.9s)
+[ 6/82] BS-06  exp=book_search    rule=book_search    xlmr=book_search    llm=book_search    (1.0s)
+[ 7/82] BS-07  exp=book_search    rule=book_search    xlmr=book_search    llm=book_search    (1.0s)
+[ 8/82] BS-08  exp=book_search    rule=hybrid         xlmr=hybrid         llm=book_search    (0.9s)
+[ 9/82] BS-09  exp=book_search    rule=recommendation xlmr=recommendation llm=book_search    (0.9s)
+[10/82] BS-10  exp=book_search    rule=book_search    xlmr=book_search    llm=book_search    (1.0s)
+[11/82] BS-11  exp=book_search    rule=book_search    xlmr=book_search    llm=book_search    (0.9s)
+[12/82] BS-12  exp=book_search    rule=book_search    xlmr=book_search    llm=book_search    (0.9s)
+[13/82] BS-13  exp=book_search    rule=book_search    xlmr=book_search    llm=book_search    (1.0s)
+[14/82] RC-01  exp=recommendation rule=recommendation xlmr=recommendation llm=recommendation (0.9s)
+[15/82] RC-02  exp=recommendation rule=recommendation xlmr=recommendation llm=recommendation (1.0s)
+[16/82] RC-03  exp=recommendation rule=hybrid         xlmr=hybrid         llm=book_search    (0.9s)
+[17/82] RC-04  exp=recommendation rule=recommendation xlmr=recommendation llm=recommendation (0.9s)
+[18/82] RC-05  exp=recommendation rule=recommendation xlmr=recommendation llm=recommendation (1.0s)
+[19/82] RC-06  exp=recommendation rule=recommendation xlmr=recommendation llm=recommendation (1.0s)
+[20/82] RC-07  exp=recommendation rule=book_search    xlmr=recommendation llm=recommendation (0.9s)
+[21/82] RC-08  exp=recommendation rule=recommendation xlmr=recommendation llm=recommendation (1.0s)
+[22/82] RC-09  exp=recommendation rule=hybrid         xlmr=hybrid         llm=recommendation (0.9s)
+[23/82] RC-10  exp=recommendation rule=recommendation xlmr=recommendation llm=recommendation (0.9s)
+[24/82] RC-11  exp=recommendation rule=recommendation xlmr=recommendation llm=recommendation (1.0s)
+[25/82] RC-12  exp=recommendation rule=recommendation xlmr=recommendation llm=recommendation (1.0s)
+[26/82] GI-01  exp=general_info   rule=general_info   xlmr=general_info   llm=general_info   (1.0s)
+[27/82] GI-02  exp=general_info   rule=general_info   xlmr=general_info   llm=general_info   (1.0s)
+[28/82] GI-03  exp=general_info   rule=book_search    xlmr=general_info   llm=general_info   (0.9s)
+[29/82] GI-04  exp=general_info   rule=general_info   xlmr=general_info   llm=general_info   (1.0s)
+[30/82] GI-05  exp=general_info   rule=oos            xlmr=oos            llm=general_info   (1.0s)
+[31/82] GI-06  exp=general_info   rule=oos            xlmr=oos            llm=general_info   (1.0s)
+[32/82] GI-07  exp=general_info   rule=general_info   xlmr=general_info   llm=general_info   (1.0s)
+[33/82] GI-08  exp=general_info   rule=general_info   xlmr=oos            llm=general_info   (1.0s)
+[34/82] GI-09  exp=general_info   rule=general_info   xlmr=book_search    llm=general_info   (1.0s)
+[35/82] GI-10  exp=general_info   rule=general_info   xlmr=general_info   llm=general_info   (1.0s)
+[36/82] GI-11  exp=general_info   rule=general_info   xlmr=general_info   llm=general_info   (1.0s)
+[37/82] GI-12  exp=general_info   rule=general_info   xlmr=general_info   llm=general_info   (1.0s)
+[38/82] GI-13  exp=general_info   rule=general_info   xlmr=general_info   llm=general_info   (1.0s)
+[39/82] GI-14  exp=general_info   rule=general_info   xlmr=general_info   llm=general_info   (1.0s)
+[40/82] HY-01  exp=hybrid         rule=hybrid         xlmr=hybrid         llm=hybrid         (0.9s)
+[41/82] HY-02  exp=hybrid         rule=hybrid         xlmr=hybrid         llm=hybrid         (0.9s)
+[42/82] HY-03  exp=hybrid         rule=hybrid         xlmr=hybrid         llm=hybrid         (0.9s)
+[43/82] HY-04  exp=hybrid         rule=hybrid         xlmr=hybrid         llm=hybrid         (0.9s)
+[44/82] HY-05  exp=hybrid         rule=hybrid         xlmr=hybrid         llm=hybrid         (0.9s)
+[45/82] HY-06  exp=hybrid         rule=hybrid         xlmr=hybrid         llm=hybrid         (0.9s)
+[46/82] HY-07  exp=hybrid         rule=hybrid         xlmr=hybrid         llm=hybrid         (0.9s)
+[47/82] HY-08  exp=hybrid         rule=hybrid         xlmr=hybrid         llm=hybrid         (0.9s)
+[48/82] HY-09  exp=hybrid         rule=hybrid         xlmr=hybrid         llm=hybrid         (0.9s)
+[49/82] HY-10  exp=hybrid         rule=hybrid         xlmr=hybrid         llm=hybrid         (0.9s)
+[50/82] ST-01  exp=stats          rule=stats          xlmr=stats          llm=stats          (0.9s)
+[51/82] ST-02  exp=stats          rule=stats          xlmr=stats          llm=stats          (0.9s)
+[52/82] ST-03  exp=stats          rule=stats          xlmr=stats          llm=stats          (0.9s)
+[53/82] ST-04  exp=stats          rule=stats          xlmr=stats          llm=stats          (0.9s)
+[54/82] ST-05  exp=stats          rule=stats          xlmr=stats          llm=stats          (0.9s)
+[55/82] ST-06  exp=stats          rule=stats          xlmr=stats          llm=stats          (0.9s)
+[56/82] ST-07  exp=stats          rule=stats          xlmr=stats          llm=stats          (0.9s)
+[57/82] ST-08  exp=stats          rule=stats          xlmr=stats          llm=stats          (0.9s)
+[58/82] ST-09  exp=stats          rule=stats          xlmr=stats          llm=stats          (0.9s)
+[59/82] ST-10  exp=stats          rule=stats          xlmr=stats          llm=stats          (0.9s)
+[60/82] GR-01  exp=greeting       rule=greeting       xlmr=greeting       llm=greeting       (1.0s)
+[61/82] GR-02  exp=greeting       rule=greeting       xlmr=greeting       llm=greeting       (0.9s)
+[62/82] GR-03  exp=greeting       rule=greeting       xlmr=greeting       llm=greeting       (0.9s)
+[63/82] GR-04  exp=greeting       rule=greeting       xlmr=greeting       llm=greeting       (0.9s)
+[64/82] GR-05  exp=greeting       rule=greeting       xlmr=oos            llm=greeting       (1.0s)
+[65/82] GR-06  exp=greeting       rule=greeting       xlmr=greeting       llm=greeting       (0.9s)
+[66/82] GR-07  exp=greeting       rule=greeting       xlmr=greeting       llm=greeting       (0.8s)
+[67/82] GR-08  exp=greeting       rule=greeting       xlmr=greeting       llm=greeting       (0.9s)
+[68/82] OO-01  exp=oos            rule=general_info   xlmr=oos            llm=oos            (1.0s)
+[69/82] OO-02  exp=oos            rule=general_info   xlmr=oos            llm=oos            (1.0s)
+[70/82] OO-03  exp=oos            rule=general_info   xlmr=oos            llm=general_info   (1.0s)
+[71/82] OO-04  exp=oos            rule=general_info   xlmr=oos            llm=oos            (0.9s)
+[72/82] OO-05  exp=oos            rule=general_info   xlmr=oos            llm=oos            (1.0s)
+[73/82] OO-06  exp=oos            rule=oos            xlmr=oos            llm=oos            (1.0s)
+[74/82] OO-07  exp=oos            rule=oos            xlmr=oos            llm=oos            (0.9s)
+[75/82] OO-08  exp=oos            rule=oos            xlmr=oos            llm=oos            (1.0s)
+[76/82] OO-09  exp=oos            rule=general_info   xlmr=oos            llm=oos            (1.0s)
+[77/82] OO-10  exp=oos            rule=general_info   xlmr=oos            llm=oos            (1.0s)
+[78/82] OO-11  exp=general_info   rule=general_info   xlmr=general_info   llm=general_info   (1.0s)
+[79/82] OO-12  exp=oos            rule=general_info   xlmr=oos            llm=oos            (1.0s)
+[80/82] OO-13  exp=oos            rule=general_info   xlmr=oos            llm=oos            (1.0s)
+[81/82] OO-14  exp=oos            rule=general_info   xlmr=oos            llm=oos            (1.0s)
+[82/82] OO-15  exp=oos            rule=general_info   xlmr=oos            llm=oos            (0.9s)
+
+======================================================================
+AKURASI ROUTING            PURE RULE  CURRENT(XLM-R)    LLM-ROUTER
+======================================================================
+KESELURUHAN                   75.6%           87.8%         97.6%
+  book_search                   77%             77%          100%
+  recommendation                75%             83%           92%
+  general_info                  80%             73%          100%
+  hybrid                       100%            100%          100%
+  stats                        100%            100%          100%
+  greeting                     100%             88%          100%
+  oos                           21%            100%           93%
+
+LLM-router rata-rata latensi: 1.0s/query
+
+MISROUTE LLM-ROUTER (2):
+  ✗ RC-03  exp=recommendation got=book_search    | "buku apa yang bagus buat belajar akuntansi?"
+  ✗ OO-03  exp=oos            got=general_info   | "cara daftar ulang semester di PNJ?"
+
+CSV: /Users/gema/Documents/Skripsi RAG Chatbot Perpustakaan Politeknik Negeri Jakarta/Teknis RAG Chatbot Perpustakaan/baseline_routing_backup/../rag-system-v3/output/router_comparison.csv

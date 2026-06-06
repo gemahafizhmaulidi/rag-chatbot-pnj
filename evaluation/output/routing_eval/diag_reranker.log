@@ -1,0 +1,36 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading bge-m3 + bge-reranker-v2-m3 + catalog...
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 61353.27it/s]
+Loading weights:   0%|          | 0/393 [00:00<?, ?it/s]Loading weights: 100%|██████████| 393/393 [00:00<00:00, 9261.45it/s]
+9084 buku, 40 query
+
+============================================================
+NDCG@5 rata-rata (40 query):
+  Config C  (fusion, no rerank)     : 0.7619
+  Config D  (rerank, trunc 400 char): 0.4596   <- versi 'produksi lama' ablation
+  Config D' (rerank, full text/512tok): 0.4811
+============================================================
+
+3 contoh query (reranker trunc-400 paling merusak vs fusion):
+
+[q001] pemrograman Python untuk pemula
+   relevan(GT): [18319]
+   C  fusion   top5 rel: R . . . .  NDCG@5=1.000
+   D  trunc400 top5 rel: . . . . .  NDCG@5=0.000
+   D' fulltext top5 rel: . . . . .  NDCG@5=0.000
+   skor reranker(trunc400) utk dok relevan: [(18319, 0.05)]
+
+[q015] elektronika digital rangkaian logika
+   relevan(GT): [703, 1129, 2922, 3692, 4157, 4158, 4962, 5945]
+   C  fusion   top5 rel: R R R R R  NDCG@5=0.934
+   D  trunc400 top5 rel: . . . . .  NDCG@5=0.000
+   D' fulltext top5 rel: R . . . R  NDCG@5=0.405
+   skor reranker(trunc400) utk dok relevan: [(4962, 0.91), (4158, 0.86), (4157, 0.89), (703, 0.93)]
+
+[q040] pengantar ekonomi mikro makro
+   relevan(GT): [2333, 2544, 2760, 2762, 3453, 3454, 3550, 4019]
+   C  fusion   top5 rel: R R R R R  NDCG@5=0.927
+   D  trunc400 top5 rel: . . . . .  NDCG@5=0.000
+   D' fulltext top5 rel: . . . . .  NDCG@5=0.000
+   skor reranker(trunc400) utk dok relevan: [(5883, 0.89), (8646, 0.93), (2760, 0.95), (5279, 0.92)]
+

@@ -1,0 +1,51 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 57163.82it/s]
+In-scope: 40 | OOS: 10
+  [01/40] F=0.25 AR=0.962 | Jam berapa perpustakaan PNJ buka pada hari Senin s
+  [02/40] F=1.0 AR=0.985 | Jam berapa perpustakaan PNJ buka pada hari Jumat?
+  [03/40] F=0.6666666666666666 AR=0.724 | Apakah perpustakaan PNJ buka pada hari Sabtu dan M
+  [04/40] F=0.8 AR=0.675 | Berapa banyak buku yang bisa dipinjam sekaligus ol
+  [05/40] F=1.0 AR=0.948 | Berapa lama masa peminjaman buku di perpustakaan P
+  [06/40] F=0.5 AR=0.876 | Berapa kali peminjaman buku bisa diperpanjang?
+  [07/40] F=0.6666666666666666 AR=0.665 | Bagaimana prosedur perpanjangan masa pinjam buku d
+  [08/40] F=1.0 AR=0.972 | Apakah ada denda jika terlambat mengembalikan buku
+  [09/40] F=1.0 AR=0.862 | Apa yang terjadi jika buku yang dipinjam hilang at
+  [10/40] F=1.0 AR=0.896 | Apakah mahasiswa PNJ perlu mendaftar untuk menjadi
+  [11/40] F=0.6923076923076923 AR=0.930 | Bagaimana prosedur peminjaman buku di perpustakaan
+  [12/40] F=0.6923076923076923 AR=0.943 | Fasilitas apa saja yang tersedia di perpustakaan P
+  [13/40] F=1.0 AR=0.899 | Apakah perpustakaan PNJ menyediakan WiFi?
+  [14/40] F=1.0 AR=0.973 | Di mana lokasi perpustakaan PNJ?
+  [15/40] F=1.0 AR=0.975 | Bagaimana cara menghubungi perpustakaan PNJ?
+  [16/40] F=1.0 AR=0.883 | Apa visi perpustakaan PNJ?
+  [17/40] F=1.0 AR=0.858 | Apa misi perpustakaan PNJ?
+  [18/40] F=1.0 AR=0.800 | Sistem apa yang digunakan perpustakaan PNJ untuk m
+  [19/40] F=0.14285714285714285 AR=0.810 | Bagaimana cara mengakses katalog buku perpustakaan
+  [20/40] F=1.0 AR=0.938 | Apakah perpustakaan PNJ memiliki layanan untuk men
+  [21/40] F=1.0 AR=0.973 | Kapan perpustakaan PNJ pertama kali berdiri?
+  [22/40] F=1.0 AR=0.936 | Apakah perpustakaan PNJ ramah untuk penyandang dis
+  [23/40] F=1.0 AR=0.857 | Apa itu BI Corner di perpustakaan PNJ?
+  [24/40] F=1.0 AR=0.872 | Apa sistem layanan yang diterapkan di perpustakaan
+  [25/40] F=0.0 AR=0.680 | Bagaimana prosedur pengembalian buku di perpustaka
+  [26/40] F=0.875 AR=0.837 | Bagaimana prosedur bebas pustaka untuk mahasiswa y
+  [27/40] F=0.5 AR=0.927 | Apakah perpustakaan PNJ menyediakan layanan e-book
+  [28/40] F=1.0 AR=0.727 | Bagaimana cara mengakses e-book Cambridge di perpu
+  [29/40] F=1.0 AR=0.902 | Apakah perpustakaan PNJ menyediakan layanan fotoko
+  [30/40] F=0.5 AR=0.882 | Berapa jumlah koleksi buku yang dimiliki perpustak
+  [31/40] F=0.6666666666666666 AR=0.961 | Apa saja jenis koleksi yang tersedia di perpustaka
+  [32/40] F=1.0 AR=0.824 | Apa sanksi jika mahasiswa melanggar tata tertib pe
+  [33/40] F=0.36363636363636365 AR=0.910 | Apakah perpustakaan PNJ memiliki ruang baca khusus
+  [34/40] F=1.0 AR=0.669 | Syarat apa saja yang diperlukan untuk menjadi angg
+  [35/40] F=1.0 AR=0.939 | Apakah ada ketentuan berpakaian atau tata tertib k
+  [36/40] F=1.0 AR=0.919 | Bagaimana cara melaporkan jika ada kerusakan buku 
+  [37/40] F=1.0 AR=0.907 | Apakah perpustakaan PNJ menyediakan layanan refere
+  [38/40] F=0.5714285714285714 AR=0.752 | Bagaimana cara mengakses KuBaCa PNJ untuk membaca 
+  [39/40] F=0.5 AR=0.863 | Apakah perpustakaan PNJ melayani tamu atau pengunj
+  [40/40] F=1.0 AR=0.891 | Apakah ada program literasi informasi atau pelatih
+
+RAGAS v2 (implementasi terkontrol, judge openai/gpt-4o-mini) — SISTEM BARU (LLM-router, bobot 0.45)
+============================================================
+In-scope: 40 | OOS: 10
+Faithfulness     : 0.8097  (40/40 valid)
+Answer Relevancy : 0.8701  (40/40 valid)
+Hard-stop OOS    : 10/10 = 100.00%
+

@@ -1,0 +1,30 @@
+{
+  "created": "2026-06-06 11:43:58",
+  "mode": "full",
+  "teacher_model": "qwen/qwen3.5-35b-a3b",
+  "params": {
+    "P_DROP_GOLDEN": 0.2,
+    "N_DISTRACTOR": 3,
+    "seed": 42,
+    "teacher_temp": 0.3
+  },
+  "requested": {
+    "book": 450,
+    "recom": 320,
+    "info": 260,
+    "hybrid": 170
+  },
+  "pool_by_route": {
+    "book_search": 450,
+    "hybrid": 170,
+    "recommendation": 320,
+    "general_info": 103
+  },
+  "written": 1043,
+  "skipped": 0,
+  "drop_golden": 227,
+  "organic_refusal": 42,
+  "min_golden_score": 0.45,
+  "heldout_count": 204,
+  "output": "experiments/raft/out/raft_train.jsonl"
+}

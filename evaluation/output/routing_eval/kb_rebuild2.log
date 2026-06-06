@@ -1,0 +1,58 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+============================================================
+BUILD KB — Perpustakaan PNJ
+============================================================
+
+[1/4] Load embedding model BAAI/bge-m3...
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 64530.29it/s]
+Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+      Model loaded.
+
+[2/4] Setup ChromaDB di /Users/gema/Documents/Skripsi RAG Chatbot Perpustakaan Politeknik Negeri Jakarta/Teknis RAG Chatbot Perpustakaan/rag-system-v3/chroma_kb...
+      Collection lama dihapus.
+      Collection baru dibuat.
+
+[3/4] Ekstrak dan chunk dokumen dari /Users/gema/Documents/Skripsi RAG Chatbot Perpustakaan Politeknik Negeri Jakarta/Teknis RAG Chatbot Perpustakaan/rag-system-v3/knowledge_base...
+  [PDF]  Panduan Pengguna KubacaPNJ.pdf — 13,803 chars
+  [PDF]  Petunjuk Penggunaan E-Book Cambridge.pdf — 10,910 chars
+  [PDF]  Petunjuk Penggunaan E-Book Taylor&Francis.pdf — 9,401 chars
+  [MD]   info_dasar_perpustakaan_pnj.md — 4,509 chars
+  [MD]   prosedur_bebas_pustaka_pnj.md — 1,740 chars
+  [PDF]  Pedoman dan Peraturan di Perpus PNJ/(UPA PERPUSTAKAAN) SURAT LAPORAN PENDAMPINGAN AKREDITASI.pdf — 6,613 chars
+  [PDF]  Pedoman dan Peraturan di Perpus PNJ/2026 DRAFT PERATURAN TATIB terbaru2026.docx.pdf — 7,261 chars
+  [PDF]  Pedoman dan Peraturan di Perpus PNJ/2026 DRAFT SK PERATURAN PERPUSTAKAAN POLITEKNIK NEGERI JAKARTA.docx.pdf — 15,175 chars
+  [PDF]  Pedoman dan Peraturan di Perpus PNJ/PEDOMAN AKUISISI BAHAN PUSTAKA.docx.pdf — 14,176 chars
+  [PDF]  Pedoman dan Peraturan di Perpus PNJ/PEDOMAN KEBIJAKAN PENGEMBANGAN KOLEKSI .docx.pdf — 17,037 chars
+  [PDF]  Pedoman dan Peraturan di Perpus PNJ/PEDOMAN LAYANAN PERPUSTAKAAN .pdf — 26,877 chars
+  [PDF]  Pedoman dan Peraturan di Perpus PNJ/PEDOMAN PEMELIHARAAN KOLEKSI .pdf — 10,492 chars
+  [PDF]  Pedoman dan Peraturan di Perpus PNJ/PEDOMAN SDM PERPUSTAKAAN.docx.pdf — 16,981 chars
+  [PDF]  Pedoman dan Peraturan di Perpus PNJ/RENSTRA perpustakaan PNJ 2020.docx.pdf — 32,149 chars
+  [PDF]  Pedoman dan Peraturan di Perpus PNJ/TATIB PERPUS.pdf — 4,344 chars
+  [SKIP] Pedoman dan Peraturan di Perpus PNJ/SOP TAHUN 2021/LAYANAN REFERENSI.pdf (scanned, pakai versi XLSX)
+  [SKIP] Pedoman dan Peraturan di Perpus PNJ/SOP TAHUN 2021/SOP LAYANAN BEBAS PUSTAKA ONLINE.pdf (scanned, pakai versi XLSX)
+  [SKIP] Pedoman dan Peraturan di Perpus PNJ/SOP TAHUN 2021/SOP LAYANAN LOKER.pdf (scanned, pakai versi XLSX)
+  [SKIP] Pedoman dan Peraturan di Perpus PNJ/SOP TAHUN 2021/SOP LAYANAN SIRKULASI.pdf (scanned, pakai versi XLSX)
+  [SKIP] Pedoman dan Peraturan di Perpus PNJ/SOP TAHUN 2021/SOP PENGADAAN BAHAN PUSTAKA.pdf (scanned, pakai versi XLSX)
+  [SKIP] Pedoman dan Peraturan di Perpus PNJ/SOP TAHUN 2021/SOP PROSEDUR PENGOLAHAN BAHAN PUSTAKA.pdf (scanned, pakai versi XLSX)
+  [XLSX] Pedoman dan Peraturan di Perpus PNJ/SOP TAHUN 2021/VERSI EXCEL/SOP LAYANAN BEBAS PUSTAKA ONLINE.xlsx — 3,031 chars
+  [XLSX] Pedoman dan Peraturan di Perpus PNJ/SOP TAHUN 2021/VERSI EXCEL/SOP LAYANAN BIMBINGAN REFERENSI.xlsx — 6,971 chars
+  [XLSX] Pedoman dan Peraturan di Perpus PNJ/SOP TAHUN 2021/VERSI EXCEL/SOP LAYANAN LOKER.xlsx — 2,813 chars
+  [XLSX] Pedoman dan Peraturan di Perpus PNJ/SOP TAHUN 2021/VERSI EXCEL/SOP LAYANAN SIRKULASI.xlsx — 4,980 chars
+  [XLSX] Pedoman dan Peraturan di Perpus PNJ/SOP TAHUN 2021/VERSI EXCEL/SOP PENGADAAN BAHAN PUSTAKA.xlsx — 4,398 chars
+  [XLSX] Pedoman dan Peraturan di Perpus PNJ/SOP TAHUN 2021/VERSI EXCEL/SOP PENGOLAHAN BAHAN PUSTAKA.xlsx — 3,447 chars
+
+      Total dokumen: 21
+      Total chunks: 212
+
+[4/4] Embed 212 chunks dengan BAAI/bge-m3...
+      Embedded 64/212...      Embedded 128/212...      Embedded 192/212...      Embedded 212/212...
+
+✅ Selesai! 212 chunks tersimpan di ChromaDB.
+   Path: /Users/gema/Documents/Skripsi RAG Chatbot Perpustakaan Politeknik Negeri Jakarta/Teknis RAG Chatbot Perpustakaan/rag-system-v3/chroma_kb
+
+Sekarang jalankan: python api.py

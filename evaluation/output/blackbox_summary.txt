@@ -1,0 +1,24 @@
+=================================================================
+HASIL BLACK BOX TESTING v4 (kriteria ketat) — Chatbot Perpustakaan PNJ
+=================================================================
+Total Skenario : 50
+Lulus          : 50
+Gagal          : 0
+Pass Rate      : 100.0%
+
+PER KATEGORI:
+  Edge Case             : 6/6
+  Greeting              : 2/2
+  Informasi Umum        : 13/13
+  Keamanan              : 5/5
+  Out-of-Scope          : 5/5
+  Pencarian Katalog     : 8/8
+  Rekomendasi           : 5/5
+  Routing Ambigu        : 5/5
+  Statistik             : 1/1
+
+SKENARIO GAGAL:
+  (tidak ada)
+
+Hasil lengkap: /Users/gema/Documents/Skripsi RAG Chatbot Perpustakaan Politeknik Negeri Jakarta/Teknis RAG Chatbot Perpustakaan/rag-system-v3/output/blackbox_results.csv
+=================================================================

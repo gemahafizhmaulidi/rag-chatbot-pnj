@@ -1,0 +1,10 @@
+  X OO-03  exp=oos            got=general_info   | cara daftar ulang semester di PNJ?
+
+Akurasi router.py (produksi): 81/82 = 98.8%
+  book_search     : 13/13 = 100%
+  recommendation  : 12/12 = 100%
+  general_info    : 15/15 = 100%
+  hybrid          : 10/10 = 100%
+  stats           : 10/10 = 100%
+  greeting        : 8/8 = 100%
+  oos             : 13/14 = 93%

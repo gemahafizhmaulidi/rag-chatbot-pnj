@@ -1,0 +1,41 @@
+query_id,query,n_rel,n_rel_enriched,mrr_before,mrr_after,hit5_before,hit5_after,ndcg5_before,ndcg5_after
+q001,pemrograman Python untuk pemula,1,1,1.0,1.0,1,1,1.0,1.0
+q002,pemrograman berorientasi objek Java,11,11,1.0,1.0,1,1,0.8082168163143322,0.8082168163143322
+q003,struktur data dan algoritma,14,14,1.0,1.0,1,1,0.819972692711383,0.819972692711383
+q004,kecerdasan buatan machine learning,8,6,1.0,1.0,1,1,1.0,0.934397461243829
+q005,deep learning neural network,4,2,1.0,1.0,1,1,0.6366824387328317,0.6366824387328317
+q006,jaringan komputer protokol TCP IP,12,11,1.0,1.0,1,1,0.913884814092471,1.0
+q007,keamanan jaringan kriptografi,6,5,1.0,1.0,1,1,0.6843515475204855,0.830419897363192
+q008,basis data relasional SQL,14,9,0.5,0.3333333333333333,1,1,0.35262297841205176,0.30078518014914984
+q009,pengembangan aplikasi web HTML CSS JavaScript,4,4,1.0,1.0,1,1,0.7386919056633241,0.7754533391612871
+q010,sistem operasi manajemen proses memori,3,3,1.0,1.0,1,1,1.0,0.9674679834891693
+q011,matematika diskrit untuk ilmu komputer,3,3,1.0,1.0,1,1,1.0,1.0
+q012,data mining dan data warehouse,3,3,1.0,1.0,1,1,0.9674679834891693,0.9674679834891693
+q013,pemrograman mobile Android,2,2,0.3333333333333333,0.3333333333333333,1,1,0.5706417189553201,0.5706417189553201
+q014,rekayasa perangkat lunak software engineering,10,10,1.0,1.0,1,1,1.0,1.0
+q015,elektronika digital rangkaian logika,11,11,1.0,1.0,1,1,0.934397461243829,0.934397461243829
+q016,mikrokontroler Arduino embedded system,9,9,1.0,1.0,1,1,0.7753926834409677,0.8733683229467235
+q017,sistem tenaga listrik pembangkit,16,16,1.0,1.0,1,1,0.915209948681596,0.9269658250786468
+q018,sinyal dan sistem telekomunikasi,11,10,1.0,1.0,1,1,0.9218382134470557,0.9218382134470557
+q019,termodinamika perpindahan panas,20,20,1.0,1.0,1,1,0.8310951893751204,0.9092569759280646
+q020,mekanika teknik statika dinamika,17,17,1.0,1.0,1,1,0.9269658250786468,1.0
+q021,gambar teknik mesin manufaktur,12,11,1.0,1.0,1,1,1.0,1.0
+q022,mekanika tanah pondasi bangunan,20,18,1.0,1.0,1,1,1.0,1.0
+q023,struktur beton bertulang konstruksi,20,20,1.0,1.0,1,1,1.0,1.0
+q024,hidrolika dan drainase jalan,15,15,1.0,1.0,1,1,0.8470858852562799,0.8470858852562799
+q025,kimia organik reaksi senyawa karbon,8,8,1.0,1.0,1,1,0.7860137352654724,0.830419897363192
+q026,kimia analitik laboratorium instrumen,4,4,1.0,1.0,1,1,0.8660461584804816,0.8660461584804816
+q027,teknik reaksi kimia perpindahan massa,6,6,1.0,1.0,1,1,0.48522855511632257,0.48522855511632257
+q028,akuntansi keuangan dasar laporan,14,14,1.0,1.0,1,1,0.27222907221580595,0.27222907221580595
+q029,akuntansi biaya manajemen perusahaan,14,14,1.0,1.0,1,1,0.8909254103672668,0.8909254103672668
+q030,perpajakan dan audit keuangan,11,11,1.0,0.5,1,1,0.4703652827859579,0.21398626473452756
+q031,manajemen sumber daya manusia organisasi,15,14,1.0,1.0,1,1,0.9920466006454153,0.9920466006454153
+q032,pemasaran digital marketing strategi,10,10,1.0,1.0,1,1,0.6100386934655652,0.6226199309845561
+q033,kewirausahaan bisnis startup UMKM,14,10,1.0,1.0,1,1,0.6992148198508501,0.830419897363192
+q034,desain grafis tipografi layout,6,5,1.0,1.0,1,1,0.7227265726449519,0.7227265726449519
+q035,teknik cetak offset digital printing,7,6,1.0,1.0,1,1,0.7395861984138348,0.6551092478840796
+q036,buku buat belajar coding dari nol,0,0,0.0,0.0,0,0,0.0,0.0
+q037,referensi buat skripsi sistem informasi,17,16,1.0,1.0,1,1,0.5351041935991797,0.5351041935991797
+q038,pengantar ilmu komputer mahasiswa semester 1,3,3,0.2,0.2,1,1,0.18154179253735267,0.18154179253735267
+q039,buku statistika buat analisis data penelitian,7,6,1.0,1.0,1,1,0.9101907216367469,0.9101907216367469
+q040,pengantar ekonomi mikro makro,17,17,1.0,1.0,1,1,0.9269658250786468,0.9269658250786468

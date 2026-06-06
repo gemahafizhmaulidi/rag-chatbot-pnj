@@ -1,0 +1,111 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+=================================================================
+FULL EVALUATION — RAG Chatbot Perpustakaan PNJ
+=================================================================
+  Threshold dari kalibrasi: 0.0779
+  Jumlah queries: 40
+
+Loading models...
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 64224.51it/s]
+
+Menjalankan evaluasi...
+  [01/40] MRR@5=1.000  NDCG@5=1.000  Hit@5=1    pemrograman Python untuk pemula
+  [02/40] MRR@5=1.000  NDCG@5=0.808  Hit@5=1    pemrograman berorientasi objek Java
+  [03/40] MRR@5=1.000  NDCG@5=0.820  Hit@5=1    struktur data dan algoritma
+  [04/40] MRR@5=1.000  NDCG@5=0.934  Hit@5=1    kecerdasan buatan machine learning
+  [05/40] MRR@5=1.000  NDCG@5=0.637  Hit@5=1    deep learning neural network
+  [06/40] MRR@5=1.000  NDCG@5=1.000  Hit@5=1    jaringan komputer protokol TCP IP
+  [07/40] MRR@5=1.000  NDCG@5=0.830  Hit@5=1    keamanan jaringan kriptografi
+  [08/40] MRR@5=0.333  NDCG@5=0.301  Hit@5=1    basis data relasional SQL
+  [09/40] MRR@5=1.000  NDCG@5=0.775  Hit@5=1    pengembangan aplikasi web HTML CSS JavaScript
+  [10/40] MRR@5=1.000  NDCG@5=0.968  Hit@5=1    sistem operasi manajemen proses memori
+  [11/40] MRR@5=1.000  NDCG@5=1.000  Hit@5=1    matematika diskrit untuk ilmu komputer
+  [12/40] MRR@5=1.000  NDCG@5=0.968  Hit@5=1    data mining dan data warehouse
+  [13/40] MRR@5=0.333  NDCG@5=0.571  Hit@5=1    pemrograman mobile Android
+  [14/40] MRR@5=1.000  NDCG@5=1.000  Hit@5=1    rekayasa perangkat lunak software engineering
+  [15/40] MRR@5=1.000  NDCG@5=0.934  Hit@5=1    elektronika digital rangkaian logika
+  [16/40] MRR@5=1.000  NDCG@5=0.873  Hit@5=1    mikrokontroler Arduino embedded system
+  [17/40] MRR@5=1.000  NDCG@5=0.927  Hit@5=1    sistem tenaga listrik pembangkit
+  [18/40] MRR@5=1.000  NDCG@5=0.922  Hit@5=1    sinyal dan sistem telekomunikasi
+  [19/40] MRR@5=1.000  NDCG@5=0.909  Hit@5=1    termodinamika perpindahan panas
+  [20/40] MRR@5=1.000  NDCG@5=1.000  Hit@5=1    mekanika teknik statika dinamika
+  [21/40] MRR@5=1.000  NDCG@5=1.000  Hit@5=1    gambar teknik mesin manufaktur
+  [22/40] MRR@5=1.000  NDCG@5=1.000  Hit@5=1    mekanika tanah pondasi bangunan
+  [23/40] MRR@5=1.000  NDCG@5=1.000  Hit@5=1    struktur beton bertulang konstruksi
+  [24/40] MRR@5=1.000  NDCG@5=0.847  Hit@5=1    hidrolika dan drainase jalan
+  [25/40] MRR@5=1.000  NDCG@5=0.830  Hit@5=1    kimia organik reaksi senyawa karbon
+  [26/40] MRR@5=1.000  NDCG@5=0.866  Hit@5=1    kimia analitik laboratorium instrumen
+  [27/40] MRR@5=1.000  NDCG@5=0.485  Hit@5=1    teknik reaksi kimia perpindahan massa
+  [28/40] MRR@5=1.000  NDCG@5=0.272  Hit@5=1    akuntansi keuangan dasar laporan
+  [29/40] MRR@5=1.000  NDCG@5=0.891  Hit@5=1    akuntansi biaya manajemen perusahaan
+  [30/40] MRR@5=0.500  NDCG@5=0.214  Hit@5=1    perpajakan dan audit keuangan
+  [31/40] MRR@5=1.000  NDCG@5=0.992  Hit@5=1    manajemen sumber daya manusia organisasi
+  [32/40] MRR@5=1.000  NDCG@5=0.623  Hit@5=1    pemasaran digital marketing strategi
+  [33/40] MRR@5=1.000  NDCG@5=0.830  Hit@5=1    kewirausahaan bisnis startup UMKM
+  [34/40] MRR@5=1.000  NDCG@5=0.723  Hit@5=1    desain grafis tipografi layout
+  [35/40] MRR@5=1.000  NDCG@5=0.655  Hit@5=1    teknik cetak offset digital printing
+  [36/40] MRR@5=0.000  NDCG@5=0.000  Hit@5=0    buku buat belajar coding dari nol
+  [37/40] MRR@5=1.000  NDCG@5=0.535  Hit@5=1    referensi buat skripsi sistem informasi
+  [38/40] MRR@5=0.200  NDCG@5=0.181  Hit@5=1    pengantar ilmu komputer mahasiswa semester 1
+  [39/40] MRR@5=1.000  NDCG@5=0.910  Hit@5=1    buku statistika buat analisis data penelitian
+  [40/40] MRR@5=1.000  NDCG@5=0.927  Hit@5=1    pengantar ekonomi mikro makro
+
+============================================================
+HASIL EVALUASI — Chatbot Perpustakaan PNJ (v3)
+============================================================
+Jumlah query    : 40
+Threshold       : 0.0779 (dari kalibrasi)
+Embedding model : BAAI/bge-m3
+Konfigurasi     : Config C — Hybrid BM25+Dense (tanpa reranker, terpilih dari ablation)
+Fusion          : BM25(0.3) + Dense(0.7)
+
+METRIK (95% Bootstrap CI):
+  MRR@1       : 0.8750  (CI: 0.7750 – 0.9750)
+  MRR@5       : 0.9092  (CI: 0.8267 – 0.9800)
+  P@5         : 0.7300  (CI: 0.6350 – 0.8200)
+  HIT@5       : 0.9750  (CI: 0.9250 – 1.0000)
+  NDCG@5      : 0.7740  (CI: 0.6898 – 0.8511)
+  HIT@10      : 0.9750  (CI: 0.9250 – 1.0000)
+  NDCG@10     : 0.7767  (CI: 0.7006 – 0.8455)
+
+BREAKDOWN PER TOPIC:
+              mrr@1   mrr@5     p@5   hit@5  ndcg@5  hit@10  ndcg@10
+topic                                                               
+AI/ML        1.0000  1.0000  0.7000  1.0000  0.7856  1.0000   0.8118
+OS           1.0000  1.0000  0.6000  1.0000  0.9675  1.0000   0.9675
+RPL          1.0000  1.0000  1.0000  1.0000  1.0000  1.0000   0.8992
+SI           1.0000  1.0000  1.0000  1.0000  0.5351  1.0000   0.6378
+akuntansi    0.6667  0.8333  0.4667  1.0000  0.4590  1.0000   0.5478
+algoritma    1.0000  1.0000  1.0000  1.0000  0.8200  1.0000   0.8098
+data         1.0000  1.0000  0.6000  1.0000  0.9675  1.0000   0.9675
+database     0.0000  0.3333  0.4000  1.0000  0.3008  1.0000   0.4661
+ekonomi      1.0000  1.0000  1.0000  1.0000  0.9270  1.0000   0.8292
+elektro      1.0000  1.0000  1.0000  1.0000  0.9142  1.0000   0.8677
+grafika      1.0000  1.0000  0.5000  1.0000  0.6889  1.0000   0.7748
+jaringan     1.0000  1.0000  0.9000  1.0000  0.9152  1.0000   0.9182
+kimia        1.0000  1.0000  0.6000  1.0000  0.7272  1.0000   0.6975
+manajemen    1.0000  1.0000  0.8000  1.0000  0.8150  1.0000   0.8213
+matematika   1.0000  1.0000  0.6000  1.0000  1.0000  1.0000   1.0000
+mesin        1.0000  1.0000  1.0000  1.0000  0.9698  1.0000   0.9306
+mobile       0.0000  0.3333  0.4000  1.0000  0.5706  1.0000   0.5706
+pemrograman  0.6667  0.6667  0.4000  0.6667  0.6027  0.6667   0.6129
+pengantar    0.0000  0.2000  0.2000  1.0000  0.1815  1.0000   0.1815
+sipil        1.0000  1.0000  1.0000  1.0000  0.9490  1.0000   0.9231
+statistik    1.0000  1.0000  0.8000  1.0000  0.9102  1.0000   0.8014
+web          1.0000  1.0000  0.6000  1.0000  0.7755  1.0000   0.8566
+
+BREAKDOWN PER DIFFICULTY:
+             mrr@1   mrr@5     p@5  hit@5  ndcg@5  hit@10  ndcg@10
+difficulty                                                        
+easy        0.8667  0.9022  0.7467    1.0  0.7666     1.0   0.7725
+hard        0.8000  0.8000  0.6800    0.8  0.5578     0.8   0.5583
+medium      0.9000  0.9417  0.7300    1.0  0.8336     1.0   0.8344
+
+ERROR ANALYSIS (1 query dengan Hit@5=0):
+  [q036] buku buat belajar coding dari nol
+    Top results: Mikrokontroler : belajar avr mulai dari  | Modern Coding Theory | Fun Coding with Microphyton : Cara Cepat | Turbo coding turbo equalisation and spac | Belajar Sendiri Pemrograman dengan Turbo
+============================================================
+
+Chart: /Users/gema/Documents/Skripsi RAG Chatbot Perpustakaan Politeknik Negeri Jakarta/Teknis RAG Chatbot Perpustakaan/rag-system-v3/output/eval_chart_topic.png
+
+Semua output disimpan di: /Users/gema/Documents/Skripsi RAG Chatbot Perpustakaan Politeknik Negeri Jakarta/Teknis RAG Chatbot Perpustakaan/rag-system-v3/output/

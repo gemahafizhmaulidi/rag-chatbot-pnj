@@ -1,0 +1,6 @@
+RAGAS v2 (implementasi terkontrol, judge openai/gpt-4o-mini) — SISTEM BARU (LLM-router, bobot 0.45)
+============================================================
+In-scope: 40 | OOS: 10
+Faithfulness     : 0.8097  (40/40 valid)
+Answer Relevancy : 0.8701  (40/40 valid)
+Hard-stop OOS    : 10/10 = 100.00%
